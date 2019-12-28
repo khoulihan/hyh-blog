@@ -1,0 +1,265 @@
+body {
+    /*font: 18px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", "Montserrat", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";*/
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Montserrat", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    color: #333;
+    background-color: #fff;
+    padding: 0px;
+    margin: 0px;
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+
+h1, h2, h3 {
+    line-height: 1.2;
+    color: #1f0537;
+    font-family: "Bitter","Roboto Slab","Segoe UI","Libre Baskerville","Droid Sans","Ubuntu","Helvetica Neue",Helvetica,Arial,serif,"Segoe Chess","Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+}
+
+a {
+  text-decoration: none;
+}
+a:link {
+  color: #810d6c;
+}
+a:visited {
+  color: #150033;
+}
+a:hover {
+  color: #e0007d;
+}
+
+article {
+  margin-bottom: 100px;
+}
+
+h1.post-title, h1.sitemap-title {
+  /*font-size: xx-large;*/
+  font-size: 2.0em;
+}
+
+.header-subtext {
+  font-size: 0.6em; /*small;*/
+  color: #555;
+  font-weight: normal;
+}
+
+div.post-meta {
+  font-size: 0.8em; /*small;*/
+  color: #777;
+}
+
+.post-meta img {
+  filter: opacity(30%);
+}
+
+.meta-value {
+  margin-left: 10px;
+  vertical-align: top;
+}
+
+section.post-excerpt > p, section.post-content {
+  margin-top: 25px;
+}
+
+.container {
+  margin: 0px auto;
+  max-width: 760px;
+  padding: 30px 10px;
+}
+
+#blog-header {
+  background-color: #1f0537;
+  margin: 0px;
+  padding: 20px;
+}
+
+.blog-name {
+  color: #e0007d;
+  display: inline;
+}
+
+#blog-header > .inner {
+  margin: 0px auto;
+  max-width: 760px;
+}
+
+#blog-logo-image {
+  width: 496px;
+  height: 73px;
+}
+
+code, pre {
+  font-family: monospace;
+}
+
+pre {
+  /*font-size: 90%;*/
+  font-size: 0.8em; /*small;*/
+}
+
+code {
+  border: 1px solid #888;
+  border-radius: 4px;
+  color: #444;
+  background-color: #e0eaea;
+}
+
+code {
+  padding: 1px 2px;
+}
+
+/* Main navigation menu */
+nav.collapsible-menu ul {
+  list-style-type: none;
+  padding: 0px;
+  margin: -10px 0px;
+  /*font-size: 85%;*/
+  font-size: 0.9em; /*small;*/
+}
+
+nav.collapsible-menu ul li {
+  text-align: center;
+  margin-top: 15px;
+}
+
+nav.collapsible-menu ul li a:link {
+  color: #000;
+  filter: invert(14%) sepia(74%) saturate(7315%) hue-rotate(318deg) brightness(87%) contrast(105%);
+  fill: #e0007d;
+  font-weight: bold;
+}
+nav.collapsible-menu ul li a:visited {
+  color: #000;
+  filter: invert(14%) sepia(74%) saturate(7315%) hue-rotate(318deg) brightness(87%) contrast(105%);
+}
+nav.collapsible-menu ul li a:hover {
+  color: #000;
+  filter: invert(14%) sepia(74%) saturate(7315%) hue-rotate(318deg) brightness(100%) contrast(105%);
+  font-weight: bolder;
+}
+nav.collapsible-menu ul li.active {
+  text-decoration: underline;
+}
+
+nav.collapsible-menu img {
+  margin-right: 5px;
+  position: relative;
+  top: 4px;
+}
+
+nav.collapsible-menu label {
+  cursor: pointer;
+  display: block;
+  padding: 0;
+  background: url(../images/icons/bars.svg) no-repeat right center;
+  background-size: 25px 25px;
+}
+
+nav.collapsible-menu label:hover {
+  color: #000;
+}
+
+nav.collapsible-menu #menu-toggle {
+  display: none;
+}
+
+nav.collapsible-menu input:checked +label {
+  background-image: url(../images/icons/times.svg);
+}
+
+nav.collapsible-menu .menu-content {
+  max-height: 0;
+  overflow: hidden;
+}
+
+nav.collapsible-menu  input:checked ~ .menu-content {
+  max-height: 100%;
+  overflow: visible;
+}
+
+span.social-icons {
+  display: inline-block;
+}
+
+/* Pagination */
+
+nav.pagination {
+  text-align: center;
+}
+
+.pagination-info {
+  vertical-align: top;
+}
+
+.pagination-next, .pagination-prev {
+  position: relative;
+  top: 3px;
+  filter: opacity(30%);
+}
+
+.pagination-next:hover, .pagination-prev:hover {
+  filter: invert(14%) sepia(74%) saturate(7315%) hue-rotate(318deg) brightness(87%) contrast(105%);
+}
+
+
+/* Responsivity */
+
+@media screen and (max-width: 600px) and (min-width: 450px) {
+  #blog-logo-image {
+    width: 336px;
+    height: 49px;
+  }
+}
+
+@media screen and (max-width: 449px) and (min-width: 375px) {
+  #blog-logo-image {
+    width: 260px;
+    height: 38px;
+  }
+
+  /*body {
+    font-size: 80%;
+  }
+
+  h1.post-title {
+    font-size: x-large;
+  }
+
+  nav.collapsible-menu ul {
+    font-size: 100%;
+  }*/
+}
+
+@media screen and (max-width: 374px) {
+  #blog-logo-image {
+    width: 240px;
+    height: 35px;
+  }
+
+  /*body {
+    font-size: 70%;
+  }
+
+  h1.post-title {
+    font-size: large;
+  }
+
+  nav.collapsible-menu ul {
+    font-size: 100%;
+  }*/
+}
+
+/* Dark colour scheme */
+/* TODO: Revisit this section */
+@media (prefers-color-scheme: dark) {
+ body {
+  color:white;
+  background:#444;
+ }
+ a:link {
+  color:#5bf;
+ }
+ a:visited {
+  color:#ccf;
+ }
+}

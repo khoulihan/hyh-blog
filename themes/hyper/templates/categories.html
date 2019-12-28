@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<div id="index" class="container">
+  <main class="content" role="main">
+    <header class="post-header">         
+        <h1 class="sitemap-title">Categories</h1>
+        <div class="clear"></div>
+    </header>
+    {% for category in categories %}
+        <h2>
+            <a href="{{ SITEURL }}/{{ category[0].url }}" rel="bookmark" title="{{category[0].name}} Category">{{ category[0].name }}</a> <span class="header-subtext">({{ category[1]|length }} articles)</span>
+        </h2>
+    {% endfor %}
+  </main>
+</div>
+{% endblock content %}

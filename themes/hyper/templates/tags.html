@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<div id="index" class="container">
+  <main class="content" role="main">
+    <header class="post-header">         
+        <h1 class="sitemap-title">Tags</h1>
+        <div class="clear"></div>
+    </header>
+    {% for tag in tags %}
+        <h2>
+            <a href="{{ SITEURL }}/{{ tag[0].url }}" rel="bookmark" title="{{tag[0].name}} Tag">{{ tag[0].name }}</a> <span class="header-subtext">({{ tag[1]|length }} articles)</span>
+        </h2>
+    {% endfor %}
+  </main>
+</div>
+{% endblock content %}
