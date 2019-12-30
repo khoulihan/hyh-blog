@@ -13,6 +13,10 @@ TIMEZONE = 'Europe/Paris'
 
 DEFAULT_LANG = 'en'
 
+# Plugins
+PLUGIN_PATHS = ['../pelican-plugins']
+PLUGINS = ['css-html-js-minify']
+
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
 CATEGORY_FEED_ATOM = None
