@@ -250,16 +250,42 @@ nav.pagination {
 }
 
 /* Dark colour scheme */
-/* TODO: Revisit this section */
 @media (prefers-color-scheme: dark) {
- body {
-  color:white;
-  background:#444;
- }
- a:link {
-  color:#5bf;
- }
- a:visited {
-  color:#ccf;
- }
+  body {
+    color:white;
+    background:#1f0537;
+  }
+  a:link {
+    color:#e0007d;
+  }
+  a:visited {
+    color:#e0007d;
+    filter: brightness(40%);
+  }
+  a:hover {
+    color:#e0007d;
+    filter: brightness(120%);
+  }
+  h1, h2, h3 {
+    color: #e0007d;
+  }
+  div.post-meta {
+    color: #bbb;
+  }
+
+  .post-meta img {
+    filter: invert(14%) sepia(74%) saturate(7315%) hue-rotate(318deg) brightness(87%) contrast(105%);
+  }
+
+  .pagination-next, .pagination-prev {
+    filter: invert(14%) sepia(74%) saturate(7315%) hue-rotate(318deg) brightness(87%) contrast(105%);
+  }
+
+  .pagination-next:hover, .pagination-prev:hover {
+    filter: invert(14%) sepia(74%) saturate(7315%) hue-rotate(318deg) brightness(100%) contrast(105%);
+  }
+
+  .header-subtext {
+    color: #bbb;
+  }
 }
