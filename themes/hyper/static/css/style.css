@@ -211,7 +211,7 @@ nav.pagination {
 
 nav.crumbs {
   max-width: 760px;
-  margin: 1.0em auto 0;
+  margin: 0 auto 0;
 }
 
 .crumbs ol {
@@ -219,6 +219,14 @@ nav.crumbs {
   display: inline-block;
   padding: 4px;
   margin: 0;
+  
+  border: 1px solid #1f0537;
+  border-radius: 4px;
+  color: #fff;
+  background-color: #1f0537;
+
+  position: relative;
+  top: -4px;
 }
 
 .crumbs ol li.divider {
@@ -237,10 +245,7 @@ nav.crumbs {
 .crumbs ol li.crumb {
   display: inline-block;
 
-  border: 1px solid #1f0537;
-  border-radius: 4px;
-  color: #fff;
-  background-color: #1f0537;
+  
   padding: 0 6px;
 }
 
