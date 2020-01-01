@@ -2,7 +2,7 @@
 <nav class="pagination" role="pagination">
   <div class="inner">
     {% if articles_page.has_previous() %}
-        <a class="pagination-next" href="{{ SITEURL }}/{{ articles_previous_page.url }}">
+        <a class="pagination-next" href="{{ SITEURL }}/{{ articles_previous_page.url }}" rel="prev">
             <svg height="17" width="17">
                 <image href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/images/icons/angle-double-left.svg" width="17" height="17"></use>
             </svg>
@@ -10,7 +10,7 @@
     {% endif %}
     <span class="pagination-info">{{ articles_page.number }} / {{ articles_paginator.num_pages }}</span>
     {% if articles_page.has_next() %}
-        <a class="pagination-prev" href="{{ SITEURL }}/{{ articles_next_page.url }}">
+        <a class="pagination-prev" href="{{ SITEURL }}/{{ articles_next_page.url }}" rel="next">
             <svg height="17" width="17">
                 <image href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/images/icons/angle-double-right.svg" width="17" height="17"></use>
             </svg>

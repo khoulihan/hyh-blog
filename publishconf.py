@@ -15,8 +15,11 @@ SITEURL = 'http://hyh-blog.surge.sh'
 SITE_LOGO = 'http://hyh-blog.surge.sh/images/logo.png'
 RELATIVE_URLS = False
 
-#FEED_ALL_ATOM = 'feeds/all.atom.xml'
-#CATEGORY_FEED_ATOM = 'feeds/{slug}.atom.xml'
+FEED_DOMAIN = SITEURL
+FEED_ALL_ATOM = 'feeds/all.atom.xml'
+FEED_ATOM = 'feeds/atom.xml'
+CATEGORY_FEED_ATOM = 'feeds/category.{slug}.atom.xml'
+TAG_FEED_ATOM = 'feeds/tag.{slug}.atom.xml'
 
 DELETE_OUTPUT_DIRECTORY = True
 

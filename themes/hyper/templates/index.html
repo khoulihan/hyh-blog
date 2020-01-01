@@ -1,5 +1,21 @@
 {% extends "base.html" %}
 
+{% block breadcrumbs %}
+<nav class="crumbs">
+    <ol>
+        <li class="crumb"><a href="{{ SITEURL }}"><img src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/images/icons/heart.svg" class="breadcrumb-icon"></a> Home
+            {% if FEED_ALL_ATOM %}
+                <span class="header-subtext">
+                    <a href="{{ FEED_DOMAIN }}/{{ FEED_ALL_ATOM }}" type="application/atom+xml" rel="alternate" title="{{ SITENAME }} Atom Feed">
+                        <img src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/images/icons/rss.svg" class="breadcrumb-icon">
+                    </a>
+                </span>
+            {% endif %}
+        </li>
+    </ol>
+</nav>
+{% endblock breadcrumbs %}
+
 {% block content %}
 
 <div id="index" class="container">

@@ -18,8 +18,11 @@ PLUGIN_PATHS = ['../pelican-plugins']
 PLUGINS = ['css-html-js-minify']
 
 # Feed generation is usually not desired when developing
-FEED_ALL_ATOM = None
-CATEGORY_FEED_ATOM = None
+FEED_DOMAIN = SITEURL
+FEED_ALL_ATOM = 'feeds/all.atom.xml'
+FEED_ATOM = 'feeds/atom.xml'
+CATEGORY_FEED_ATOM = 'feeds/category.{slug}.atom.xml'
+TAG_FEED_ATOM = 'feeds/tag.{slug}.atom.xml'
 TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
@@ -40,7 +43,8 @@ SOCIAL_ICONS = (('Twitter', 'twitter.svg', 'https://twitter.com/http_your_heart'
                 ('YouTube', 'youtube.svg', 'https://www.youtube.com/channel/UCc_O9Hp5UfQ-IHswi1H54Zg'),
                 ('Twitch', 'twitch.svg', 'https://www.twitch.tv/hyperlinkyourheart'),
                 ('Itch', 'itchio.svg', 'https://hyperlinkyourheart.itch.io/'),
-                ('GitHub', 'github.svg', 'https://github.com/khoulihan'),)
+                ('GitHub', 'github.svg', 'https://github.com/khoulihan'),
+                ('Atom Feed', 'rss.svg', '/feeds/all.atom.xml'),)
 
 # TODO: Populate this instead of explicit categories/tags links in theme
 MENUITEMS = (('Home', ''),

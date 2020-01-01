@@ -1,5 +1,15 @@
 {% extends "base.html" %}
 
+{% block breadcrumbs %}
+<nav class="crumbs">
+    <ol>
+        <li class="crumb"><a href="{{ SITEURL }}"><img src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/images/icons/heart.svg" class="breadcrumb-icon"></a></li>
+        <li class="divider"></li>
+        <li class="crumb">{{ article.slug }}</li>
+    </ol>
+</nav>
+{% endblock breadcrumbs %}
+
 {% block content %}
 
 <div id="index" class="container">

@@ -1,16 +1,26 @@
 {% extends "base.html" %}
 
+{% block breadcrumbs %}
+<nav class="crumbs">
+    <ol>
+        <li class="crumb"><a href="{{ SITEURL }}"><img src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/images/icons/heart.svg" class="breadcrumb-icon"></a></li>
+        <li class="divider"></li>
+        <li class="crumb">Tags</li>
+    </ol>
+</nav>
+{% endblock breadcrumbs %}
+
 {% block content %}
 
 <div id="index" class="container">
   <main class="content" role="main">
-    <header class="post-header">         
+    <!--<header class="post-header">         
         <h1 class="sitemap-title">Tags</h1>
         <div class="clear"></div>
-    </header>
+    </header>-->
     {% for tag in tags %}
         <h2>
-            <a href="{{ SITEURL }}/{{ tag[0].url }}" rel="bookmark" title="{{tag[0].name}} Tag">{{ tag[0].name }}</a> <span class="header-subtext">({{ tag[1]|length }} articles)</span>
+            <a class="tag" href="{{ SITEURL }}/{{ tag[0].url }}" rel="bookmark" title="{{tag[0].name}} Tag">{{ tag[0].name }}</a> <span class="header-subtext">({{ tag[1]|length }} articles)</span>
         </h2>
     {% endfor %}
   </main>

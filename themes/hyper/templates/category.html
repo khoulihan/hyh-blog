@@ -1,5 +1,26 @@
 {% extends "base.html" %}
 
+{% block breadcrumbs %}
+<nav class="crumbs">
+    <ol>
+        <li class="crumb"><a href="{{ SITEURL }}"><img src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/images/icons/heart.svg" class="breadcrumb-icon"></a></li>
+        <li class="divider"></li>
+        <li class="crumb"><a href="{{ SITEURL }}/categories.html">Categories</a></li>
+        <li class="divider"></li>
+        <li class="crumb">
+            {{category.name}}
+            {% if CATEGORY_FEED_ATOM %}
+                <span class="header-subtext">
+                    <a href="{{ FEED_DOMAIN }}/{{ CATEGORY_FEED_ATOM.format(slug=category.slug) }}" type="application/atom+xml" rel="alternate" title="{{ SITENAME }} {{ category.name }} Category Atom Feed">
+                        <img src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/images/icons/rss.svg" class="breadcrumb-icon">
+                    </a>
+                </span>
+            {% endif %}
+        </li>
+    </ol>
+</nav>
+{% endblock breadcrumbs %}
+
 {% block content %}
 
 <div id="index" class="container">

@@ -108,6 +108,12 @@ code {
   padding: 1px 2px;
 }
 
+/*header nav {
+  padding: 4px 4px;
+  font-size: 1.0rem;
+  display: inline-block;
+}*/
+
 /* Main navigation menu */
 nav.collapsible-menu ul {
   list-style-type: none;
@@ -201,6 +207,75 @@ nav.pagination {
   filter: invert(14%) sepia(74%) saturate(7315%) hue-rotate(318deg) brightness(87%) contrast(105%);
 }
 
+/* Breadcrumbs */
+
+nav.crumbs {
+  max-width: 760px;
+  margin: 1.0em auto 0;
+}
+
+.crumbs ol {
+  list-style-type: none;
+  display: inline-block;
+  padding: 4px;
+  margin: 0;
+}
+
+.crumbs ol li.divider {
+  display: inline-block;
+}
+
+.crumbs ol li.divider::after {
+  display: inline-block;
+  color: #777;
+  content: '/';
+  font-size: 80%;
+  font-weight: bold;
+  padding: 0 5px;
+}
+
+.crumbs ol li.crumb {
+  display: inline-block;
+
+  border: 1px solid #1f0537;
+  border-radius: 4px;
+  color: #fff;
+  background-color: #1f0537;
+  padding: 0 6px;
+}
+
+.crumbs ol li.crumb a:link {
+  color:#e0007d;
+}
+
+.crumbs ol li.crumb a:visited {
+  color:#e0007d;
+  filter: brightness(40%);
+}
+
+.crumbs ol li.crumb a:hover {
+  color:#e0007d;
+  filter: brightness(120%);
+}
+
+.tag::before {
+  content: '#';
+}
+
+/* SVG icon in main content */
+
+.body-icon {
+  filter: invert(6%) sepia(27%) saturate(6181%) hue-rotate(260deg) brightness(106%) contrast(107%);
+}
+
+/* SVG icon in breadcrumb */
+
+.breadcrumb-icon {
+  filter: invert(14%) sepia(74%) saturate(7315%) hue-rotate(318deg) brightness(87%) contrast(105%);
+  width: 1.0rem;
+  height: 1.0rem;
+}
+
 
 /* Responsivity */
 
@@ -287,5 +362,9 @@ nav.pagination {
 
   .header-subtext {
     color: #bbb;
+  }
+
+  .body-icon {
+    filter: invert(14%) sepia(74%) saturate(7315%) hue-rotate(318deg) brightness(87%) contrast(105%);
   }
 }
