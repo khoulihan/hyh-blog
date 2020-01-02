@@ -19,9 +19,7 @@
                 <span class="social-icons">
                     {% for s in SOCIAL_ICONS %}
                         <a href="{{ s[2] }}" target="_blank" title="{{ s[0] }}">
-                            <svg height="17" width="17">
-                                <image href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/images/icons/{{ s[1] }}" width="17" height="17"></use>
-                            </svg>
+                            <img src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/images/icons/{{ s[1] }}">
                         </a>
                     {% endfor %}
                 </span>

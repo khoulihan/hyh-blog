@@ -1,3 +1,5 @@
+/* Base styling */
+
 body {
     /*font: 18px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", "Montserrat", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";*/
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Montserrat", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -5,7 +7,7 @@ body {
     background-color: #fff;
     padding: 0px;
     margin: 0px;
-    font-size: 1.2em;
+    font-size: 1.2rem; /* Usually around 19pt */
     line-height: 1.6;
 }
 
@@ -28,49 +30,27 @@ a:hover {
   color: #e0007d;
 }
 
-article {
-  margin-bottom: 100px;
-}
 
-h1.post-title, h1.sitemap-title {
-  /*font-size: xx-large;*/
-  font-size: 2.0em;
-}
+/* Layout */
 
-.header-subtext {
-  font-size: 0.6em; /*small;*/
-  color: #555;
-  font-weight: normal;
-}
-
-div.post-meta {
-  font-size: 0.8em; /*small;*/
-  color: #777;
-}
-
-.post-meta img {
-  filter: opacity(30%);
-}
-
-.meta-value {
-  margin-left: 10px;
-  vertical-align: top;
-}
-
-section.post-excerpt > p, section.post-content {
-  margin-top: 25px;
+/* Original width was 760px, which was a compromise for large screens */
+.container, #blog-header > .inner, nav.crumbs {
+  margin: 0 auto;
+  max-width: 40rem;
 }
 
 .container {
-  margin: 0px auto;
-  max-width: 760px;
-  padding: 30px 10px;
+  padding: 0.3rem 0.5rem;
+}
+
+nav.crumbs {
+  margin: 0 auto 0;
 }
 
 #blog-header {
   background-color: #1f0537;
-  margin: 0px;
-  padding: 20px;
+  margin: 0;
+  padding: 1.25rem;
 }
 
 .blog-name {
@@ -78,14 +58,52 @@ section.post-excerpt > p, section.post-content {
   display: inline;
 }
 
-#blog-header > .inner {
-  margin: 0px auto;
-  max-width: 760px;
-}
-
 #blog-logo-image {
   width: 496px;
   height: 73px;
+}
+
+article {
+  margin-bottom: 10.0rem;
+}
+
+section.post-content {
+  margin-top: 2.5rem;
+}
+
+section.post-excerpt > p {
+  margin-top: 1.5rem;
+}
+
+
+/* Content formatting */
+
+/* TODO: Can I not just style h1 for this? */
+h1.post-title, h1.sitemap-title {
+  font-size: 2.0em;
+  margin-bottom: 1.0rem;
+}
+
+.header-subtext {
+  font-size: 0.6em;
+  color: #555;
+  font-weight: normal;
+}
+
+div.post-meta {
+  font-size: 0.9rem;
+  color: #777;
+}
+
+.post-meta img {
+  filter: opacity(30%);
+  width: 1.0rem;
+  height: 1.0rem;
+}
+
+.meta-value {
+  margin-left: 1.0rem;
+  vertical-align: top;
 }
 
 code, pre {
@@ -93,8 +111,7 @@ code, pre {
 }
 
 pre {
-  /*font-size: 90%;*/
-  font-size: 0.8em; /*small;*/
+  font-size: 0.8em;
 }
 
 code {
@@ -108,24 +125,20 @@ code {
   padding: 1px 2px;
 }
 
-/*header nav {
-  padding: 4px 4px;
-  font-size: 1.0rem;
-  display: inline-block;
-}*/
 
 /* Main navigation menu */
+
 nav.collapsible-menu ul {
   list-style-type: none;
-  padding: 0px;
-  margin: -10px 0px;
-  /*font-size: 85%;*/
-  font-size: 0.9em; /*small;*/
+  padding: 0;
+  position: relative;
+  top: -1.0rem;
+  margin: 0;
 }
 
 nav.collapsible-menu ul li {
   text-align: center;
-  margin-top: 15px;
+  margin-top: 1.0rem;
 }
 
 nav.collapsible-menu ul li a:link {
@@ -145,12 +158,6 @@ nav.collapsible-menu ul li a:hover {
 }
 nav.collapsible-menu ul li.active {
   text-decoration: underline;
-}
-
-nav.collapsible-menu img {
-  margin-right: 5px;
-  position: relative;
-  top: 4px;
 }
 
 nav.collapsible-menu label {
@@ -187,6 +194,12 @@ span.social-icons {
   display: inline-block;
 }
 
+span.social-icons img {
+  width: 1.2rem;
+  height: 1.2rem;
+}
+
+
 /* Pagination */
 
 nav.pagination {
@@ -209,15 +222,10 @@ nav.pagination {
 
 /* Breadcrumbs */
 
-nav.crumbs {
-  max-width: 760px;
-  margin: 0 auto 0;
-}
-
 .crumbs ol {
   list-style-type: none;
   display: inline-block;
-  padding: 4px;
+  padding: 0.5rem;
   margin: 0;
   
   border: 1px solid #1f0537;
@@ -239,14 +247,14 @@ nav.crumbs {
   content: '/';
   font-size: 80%;
   font-weight: bold;
-  padding: 0 5px;
+  padding: 0 0.3rem;
 }
 
 .crumbs ol li.crumb {
   display: inline-block;
 
   
-  padding: 0 6px;
+  padding: 0 0.6rem;
 }
 
 .crumbs ol li.crumb a:link {
@@ -267,11 +275,13 @@ nav.crumbs {
   content: '#';
 }
 
+
 /* SVG icon in main content */
 
 .body-icon {
   filter: invert(6%) sepia(27%) saturate(6181%) hue-rotate(260deg) brightness(106%) contrast(107%);
 }
+
 
 /* SVG icon in breadcrumb */
 
@@ -284,50 +294,66 @@ nav.crumbs {
 
 /* Responsivity */
 
+@media screen and (min-width: 1600px) {
+  html {
+    font-size: 105%;
+  }
+}
+
+@media screen and (min-width: 1800px) {
+  html {
+    font-size: 110%;
+  }
+}
+
+@media screen and (min-width: 2000px) {
+  html {
+    font-size: 120%;
+  }
+}
+
+
 @media screen and (max-width: 600px) and (min-width: 450px) {
   #blog-logo-image {
     width: 336px;
     height: 49px;
   }
+
+  .container, #blog-header > .inner, nav.crumbs {
+    max-width: 40rem;
+  }
 }
 
 @media screen and (max-width: 449px) and (min-width: 375px) {
+  html {
+    font-size: 90%;
+  }
+
   #blog-logo-image {
     width: 260px;
     height: 38px;
   }
 
-  /*body {
-    font-size: 80%;
+  .container, #blog-header > .inner, nav.crumbs {
+    max-width: 40rem;
   }
-
-  h1.post-title {
-    font-size: x-large;
-  }
-
-  nav.collapsible-menu ul {
-    font-size: 100%;
-  }*/
 }
 
 @media screen and (max-width: 374px) {
+  html {
+    font-size: 80%;
+  }
+
   #blog-logo-image {
     width: 240px;
     height: 35px;
   }
 
-  /*body {
-    font-size: 70%;
+  .container, #blog-header > .inner, nav.crumbs {
+    max-width: 40rem;
   }
-
-  h1.post-title {
-    font-size: large;
-  }
-
-  nav.collapsible-menu ul {
-    font-size: 100%;
-  }*/
 }
+
 
 /* Dark colour scheme */
 @media (prefers-color-scheme: dark) {
@@ -372,4 +398,8 @@ nav.crumbs {
   .body-icon {
     filter: invert(14%) sepia(74%) saturate(7315%) hue-rotate(318deg) brightness(87%) contrast(105%);
   }
+}
+
+html {
+  display: block;
 }

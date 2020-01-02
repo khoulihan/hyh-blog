@@ -46,12 +46,11 @@ SOCIAL_ICONS = (('Twitter', 'twitter.svg', 'https://twitter.com/http_your_heart'
                 ('GitHub', 'github.svg', 'https://github.com/khoulihan'),
                 ('Atom Feed', 'rss.svg', '/feeds/all.atom.xml'),)
 
-# TODO: Populate this instead of explicit categories/tags links in theme
 MENUITEMS = (('Home', ''),
             ('Categories', 'categories.html'),
             ('Tags', 'tags.html'),)
 
-DEFAULT_PAGINATION = 10
+DEFAULT_PAGINATION = 1
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True

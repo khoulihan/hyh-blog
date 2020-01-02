@@ -5,15 +5,15 @@
             </h1>
             <div class="post-meta">
                 <div>
-                    <img height="15" width="15" src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/images/icons/calendar-day.svg">
+                    <img src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/images/icons/calendar-day.svg">
                     <span class="meta-value"><time datetime="{{ article.locale_date }}">{{ article.locale_date }}</time></span>
                 </div>
                 <div>
-                    <img height="15" width="15" src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/images/icons/sitemap.svg">
+                    <img src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/images/icons/sitemap.svg">
                     <span class="meta-value"><a href="{{ SITEURL }}/{{ article.category.url }}" rel="bookmark" title="{{article.category.name}} Category">{{ article.category.name }}</a></span>
                 </div>
                 <div>
-                    <img height="15" width="15" src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/images/icons/tags.svg">
+                    <img src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/images/icons/tags.svg">
                     <span class="meta-value">
                         {% for tag in article.tags %}
                             <a class="tag" href="{{ SITEURL }}/{{ tag.url }}" rel="bookmark" title="{{tag.name}} Tag">{{ tag.name }}</a>{% if not loop.last %}, {% endif %}
