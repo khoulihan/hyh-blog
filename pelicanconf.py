@@ -4,8 +4,12 @@ from __future__ import unicode_literals
 
 AUTHOR = 'Kevin Houlihan'
 SITENAME = 'Hyperlink Your Heart'
+SITESUBTITLE = "Until there's nothing left."
 SITEURL = 'http://localhost:8000'
 SITE_LOGO = 'http://localhost:8000/images/logo.png'
+
+DEFAULT_OPENGRAPH_IMAGE = 'images/opengraph/OpenGraph_Studio_Yellow.png'
+DEFAULT_TWITTER_CARD_IMAGE = DEFAULT_OPENGRAPH_IMAGE
 
 PATH = 'content'
 
