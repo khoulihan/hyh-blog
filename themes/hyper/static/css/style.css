@@ -18,7 +18,7 @@ h1, h2, h3 {
 }
 
 a {
-  text-decoration: none;
+  text-decoration: underline #e0007d;
 }
 a:link {
   color: #810d6c;
@@ -28,8 +28,20 @@ a:visited {
 }
 a:hover {
   color: #e0007d;
+  text-decoration: none !important;
 }
 
+nav a, header a {
+  text-decoration: none;
+}
+
+li {
+  margin-top: 0.6rem;
+}
+
+ul > li {
+  list-style-type: circle;
+}
 
 /* Layout */
 
@@ -90,6 +102,10 @@ h1.post-title, h1.sitemap-title {
   font-weight: normal;
 }
 
+.header-subtext a {
+  text-decoration: none;
+}
+
 div.post-meta {
   font-size: 0.9rem;
   color: #777;
@@ -134,11 +150,13 @@ nav.collapsible-menu ul {
   position: relative;
   top: -1.0rem;
   margin: 0;
+  text-decoration: none;
 }
 
 nav.collapsible-menu ul li {
   text-align: center;
   margin-top: 1.0rem;
+  list-style-type: none;
 }
 
 nav.collapsible-menu ul li a:link {
@@ -237,6 +255,10 @@ nav.pagination {
   top: -4px;
 }
 
+.crumbs ol li {
+  margin: 0;
+}
+
 .crumbs ol li.divider {
   display: inline-block;
 }
@@ -252,8 +274,6 @@ nav.pagination {
 
 .crumbs ol li.crumb {
   display: inline-block;
-
-  
   padding: 0 0.6rem;
 }
 
