@@ -11,8 +11,8 @@ sys.path.append(os.curdir)
 from pelicanconf import *
 
 # If your site is available via HTTPS, make sure SITEURL begins with https://
-SITEURL = 'http://hyh-blog.surge.sh'
-SITE_LOGO = 'http://hyh-blog.surge.sh/images/logo.png'
+SITEURL = 'https://hyhblog.netlify.com'
+SITE_LOGO = 'https://hyhblog.netlify.com/images/logo.png'
 RELATIVE_URLS = False
 
 FEED_DOMAIN = SITEURL
