@@ -27,7 +27,7 @@ I have [another site](https://hyperlinkyourheart.com) about my art and gamedev e
 
 There isn't anywhere that I consider the one ideal place to view my art, but most of it is on [DeviantArt](https://www.deviantart.com/randomhuman/gallery). I do some pixel art and some painting and drawing.
 
-I do [timelapse videos](https://www.youtube.com/channel/UCc_O9Hp5UfQ-IHswi1H54Zg) of my process for the pixel art that I do.
+I do [time-lapse videos](https://www.youtube.com/channel/UCc_O9Hp5UfQ-IHswi1H54Zg) of my process for the pixel art that I do.
 
 My art is available for printing from a number of *Print on Demand* sites:
 
