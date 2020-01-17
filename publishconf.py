@@ -23,6 +23,8 @@ TAG_FEED_ATOM = 'feeds/tag.{slug}.atom.xml'
 
 DELETE_OUTPUT_DIRECTORY = True
 
+DEFAULT_PAGINATION = 10
+
 # Following items are often useful when publishing
 
 #DISQUS_SITENAME = ""
