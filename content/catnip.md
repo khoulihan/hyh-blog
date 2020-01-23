@@ -7,7 +7,7 @@ Slug: catnip
 Authors: Kevin Houlihan
 Summary: An animation of a cat hunting pixels on a 70's styled computer.
 
-I put together an animation over the last few weeks of cat trying to catch gliders on a 70's styled computer. Check it out on YouTube:
+I put together an animation over the last few weeks of a cat trying to catch gliders on a 70's styled computer. Check it out on YouTube:
 
 [![Catnip](https://img.youtube.com/vi/2PqFIOkhUSk/0.jpg)](https://www.youtube.com/watch?v=2PqFIOkhUSk)
 
