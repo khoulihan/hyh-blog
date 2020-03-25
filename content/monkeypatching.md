@@ -165,7 +165,7 @@ SHUTDOWN_BIT = 0x01
 ONE_SHOT_BIT = 0x80
 ```
 
-The rest of the function a method and a property which are added to the class by simply assigning them to attributes. These will be available to any instances of the class, exactly as if they were included in the class definition.
+The rest of the function defines a method and a property which are added to the class by simply assigning them to attributes. These will be available to any instances of the class, exactly as if they were included in the class definition.
 
 ```python
 def initiate_conversion(self):
