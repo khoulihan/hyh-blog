@@ -1,6 +1,6 @@
 Title: Runtime Class Modification
 Date: 2020-03-25 17:51
-Modified: 2020-03-25 17:51
+Modified: 2020-03-25 23:12
 Category: Programming
 Tags: python, micropython
 Slug: runtime-class-modification
@@ -18,7 +18,7 @@ This post is about what I ended up with and how it works.
 
 ## Importable Features
 
-The core functionality of the module can be leveraged by importing the class and creating an instance. This leaves the sensor in its default configuration, in which it performs a reading 4 times per second and makes the most recent available to your code on request. The details of initialising the object are explained in the [documentation](https://github.com/khoulihan/micropython-tmp102/blob/master/README.md) if you actually want to use the module, so I won't go into them again here.
+The core functionality of the package can be leveraged by importing the `Tmp102` class and creating an instance. This leaves the sensor in its default configuration, in which it performs a reading 4 times per second and makes the most recent available to your code on request. The details of initialising the object are explained in the [documentation](https://github.com/khoulihan/micropython-tmp102/blob/master/README.md) if you actually want to use the module, so I won't go into them again here.
 
 ```python
 from machine import I2C
