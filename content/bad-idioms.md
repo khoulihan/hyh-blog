@@ -1,6 +1,6 @@
 Title: Bad Idioms
 Date: 2020-01-10 14:11
-Modified: 2020-01-10 14:11
+Modified: 2020-03-25 23:20
 Category: Programming
 Tags: python, c-sharp
 Slug: bad-idioms
@@ -15,7 +15,7 @@ I recently made the mistake, after a period of writing Python code, of applying 
 List<object> l;
 if (dict.ContainsKey(objectType))
 {
-    l = dict[objectType]
+    l = dict[objectType];
 }
 else
 {
