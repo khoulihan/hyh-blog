@@ -82,7 +82,7 @@ def _set_bit_for_boolean(b, mask, val):
 class Tmp102(object):
 
     def __init__(self, bus, address, temperature_convertor=None, **kwargs):
-    	    self.bus = bus
+        self.bus = bus
         self.address = address
         self.temperature_convertor = temperature_convertor
         # The register defaults to the temperature.
