@@ -117,6 +117,12 @@ div.post-meta {
   height: 1.0rem;
 }
 
+.post-meta svg {
+  color: #888;
+  width: 1.0rem;
+  height: 1.0rem;
+}
+
 .meta-value {
   margin-left: 1.0rem;
   vertical-align: top;
@@ -160,18 +166,15 @@ nav.collapsible-menu ul li {
 }
 
 nav.collapsible-menu ul li a:link {
-  color: #000;
-  filter: invert(14%) sepia(74%) saturate(7315%) hue-rotate(318deg) brightness(87%) contrast(105%);
-  fill: #e0007d;
+  color: #e0007d;
   font-weight: bold;
 }
 nav.collapsible-menu ul li a:visited {
-  color: #000;
-  filter: invert(14%) sepia(74%) saturate(7315%) hue-rotate(318deg) brightness(87%) contrast(105%);
+  color: #e0007d;
 }
 nav.collapsible-menu ul li a:hover {
-  color: #000;
-  filter: invert(14%) sepia(74%) saturate(7315%) hue-rotate(318deg) brightness(100%) contrast(105%);
+  color: #e0007d;
+  filter: brightness(120%);
   font-weight: bolder;
 }
 nav.collapsible-menu ul li.active {
@@ -217,6 +220,11 @@ span.social-icons img {
   height: 1.2rem;
 }
 
+span.social-icons svg {
+  width: 1.2rem;
+  height: 1.2rem;
+}
+
 
 /* Pagination */
 
@@ -238,6 +246,11 @@ nav.pagination {
   filter: invert(14%) sepia(74%) saturate(7315%) hue-rotate(318deg) brightness(87%) contrast(105%);
 }
 
+nav.pagination svg {
+  width: 1.2rem;
+  height: 1.2rem;
+}
+
 /* Breadcrumbs */
 
 .crumbs ol {
@@ -245,7 +258,7 @@ nav.pagination {
   display: inline-block;
   padding: 0.5rem;
   margin: 0;
-  
+
   border: 1px solid #1f0537;
   border-radius: 4px;
   color: #fff;
@@ -299,14 +312,14 @@ nav.pagination {
 /* SVG icon in main content */
 
 .body-icon {
-  filter: invert(6%) sepia(27%) saturate(6181%) hue-rotate(260deg) brightness(106%) contrast(107%);
+  width: 1.2rem;
+  height: 1.2rem;
 }
 
 
 /* SVG icon in breadcrumb */
 
 .breadcrumb-icon {
-  filter: invert(14%) sepia(74%) saturate(7315%) hue-rotate(318deg) brightness(87%) contrast(105%);
   width: 1.0rem;
   height: 1.0rem;
 }
@@ -403,6 +416,10 @@ nav.pagination {
     filter: invert(14%) sepia(74%) saturate(7315%) hue-rotate(318deg) brightness(87%) contrast(105%);
   }
 
+  .post-meta svg {
+    color: #e0007d;
+  }
+
   .pagination-next, .pagination-prev {
     filter: invert(14%) sepia(74%) saturate(7315%) hue-rotate(318deg) brightness(87%) contrast(105%);
   }
@@ -416,7 +433,7 @@ nav.pagination {
   }
 
   .body-icon {
-    filter: invert(14%) sepia(74%) saturate(7315%) hue-rotate(318deg) brightness(87%) contrast(105%);
+    color: #e0007d;
   }
 }
 

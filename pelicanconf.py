@@ -18,8 +18,15 @@ TIMEZONE = 'Europe/Paris'
 DEFAULT_LANG = 'en'
 
 # Plugins
-PLUGIN_PATHS = ['../pelican-plugins']
-PLUGINS = ['css-html-js-minify']
+PLUGIN_PATHS = ['../pelican-plugins', '../pelican-embed-svg']
+PLUGINS = [
+    #'css-html-js-minify',
+    'pelican_embed_svg'
+]
+
+#PES_FONT_AWESOME_PATH = 'themes/hyper/static/font-awesome'
+PES_EMBED_IMG_TAGS = True
+PES_SET_IMG_FILL = True
 
 # Feed generation is usually not desired when developing
 FEED_DOMAIN = SITEURL
@@ -41,15 +48,15 @@ SOCIAL = (('Twitter', 'https://twitter.com/http_your_heart'),
           ('Mastodon', 'https://mastodon.art/@hyperlinkyourheart'),)
 
 # Custom social list that includes icons
-SOCIAL_ICONS = (('Twitter', 'twitter.svg', 'https://twitter.com/http_your_heart'),
-                ('Mastodon', 'mastodon.svg', 'https://mastodon.art/@hyperlinkyourheart'),
-                ('Instagram', 'instagram.svg', 'https://www.instagram.com/hyperlinkyourheart/'),
-                ('Facebook', 'facebook.svg', 'https://www.facebook.com/hyperlinkyourheart/'),
-                ('YouTube', 'youtube.svg', 'https://www.youtube.com/channel/UCc_O9Hp5UfQ-IHswi1H54Zg'),
-                ('Twitch', 'twitch.svg', 'https://www.twitch.tv/hyperlinkyourheart'),
-                ('Itch', 'itchio.svg', 'https://hyperlinkyourheart.itch.io/'),
-                ('GitHub', 'github.svg', 'https://github.com/khoulihan'),
-                ('Atom Feed', 'rss.svg', '/feeds/all.atom.xml'),)
+SOCIAL_ICONS = (('Twitter', 'fab fa-twitter', 'https://twitter.com/http_your_heart'),
+                ('Mastodon', 'fab fa-mastodon', 'https://mastodon.art/@hyperlinkyourheart'),
+                ('Instagram', 'fab fa-instagram', 'https://www.instagram.com/hyperlinkyourheart/'),
+                ('Facebook', 'fab fa-facebook', 'https://www.facebook.com/hyperlinkyourheart/'),
+                ('YouTube', 'fab fa-youtube', 'https://www.youtube.com/channel/UCc_O9Hp5UfQ-IHswi1H54Zg'),
+                ('Twitch', 'fab fa-twitch', 'https://www.twitch.tv/hyperlinkyourheart'),
+                ('Itch', 'fab fa-itch-io', 'https://hyperlinkyourheart.itch.io/'),
+                ('GitHub', 'fab fa-github', 'https://github.com/khoulihan'),
+                ('Atom Feed', 'fas fa-rss', '/feeds/all.atom.xml'),)
 
 MENUITEMS = (('Home', ''),
             ('Categories', 'categories.html'),

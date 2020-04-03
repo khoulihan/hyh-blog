@@ -3,7 +3,7 @@
 {% block breadcrumbs %}
 <nav class="crumbs">
     <ol>
-        <li class="crumb"><a href="{{ SITEURL }}"><img src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/images/icons/heart.svg" class="breadcrumb-icon"></a></li>
+        <li class="crumb"><a href="{{ SITEURL }}"><i class="fas fa-heart breadcrumb-icon"></i></a></li>
         <li class="divider"></li>
         <li class="crumb"><a href="{{ SITEURL }}/tags.html">Tags</a></li>
         <li class="divider"></li>
@@ -12,7 +12,7 @@
             {% if TAG_FEED_ATOM %}
                 <span class="header-subtext">
                     <a href="{{ FEED_DOMAIN }}/{{ TAG_FEED_ATOM.format(slug=tag.slug) }}" type="application/atom+xml" rel="alternate" title="{{ SITENAME }} {{ tag.name }} Tag Atom Feed">
-                       <img src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/images/icons/rss.svg" class="breadcrumb-icon">
+                       <i class="fas fa-rss breadcrumb-icon"></i>
                     </a>
                 </span>
             {% endif %}
