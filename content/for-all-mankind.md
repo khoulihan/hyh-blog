@@ -1,6 +1,6 @@
 Title: For All Mankind
-Date: 2020-04-04 16:48
-Modified: 2020-04-04 16:48
+Date: 2020-04-14 16:48
+Modified: 2020-04-14 16:48
 Category: TV
 Tags: sci-fi, not-a-tankie-but
 Slug: for-all-mankind
