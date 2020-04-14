@@ -132,15 +132,15 @@ div.post-meta {
   max-width: 100%;
 }
 
-code, pre {
+code, pre, blockquote {
   font-family: monospace;
 }
 
-pre {
+pre, blockquote {
   font-size: 0.8em;
 }
 
-code {
+code, blockquote {
   border: 1px solid #888;
   border-radius: 4px;
   color: #444;
@@ -149,6 +149,16 @@ code {
 
 code {
   padding: 1px 2px;
+}
+
+blockquote {
+  padding: 1px 8px;
+  border: none;
+}
+
+blockquote p {
+  margin: 0.5rem;
+  font-size: 1.5rem;
 }
 
 
@@ -328,6 +338,14 @@ nav.pagination svg {
   height: 1.0rem;
 }
 
+/* Icon for terminating articles */
+
+.terminator svg {
+  display: block;
+  width: 1.5rem;
+  height: 1.5rem;
+  margin: 3.0rem auto 1.0rem auto;
+}
 
 /* Responsivity */
 
