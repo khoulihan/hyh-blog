@@ -2,7 +2,7 @@ Title: Gophers
 Date: 2020-04-25 17:24
 Modified: 2020-04-25 17:24
 Category: Game Development
-Tags: ludum-dare, gopher
+Tags: ludum-dare, gopher, sci-fi, music, pixelart, godot
 Slug: gophers-post-mortem
 Authors: Kevin Houlihan
 Summary: A post-mortem of my Ludum Dare 46 entry, Gophers - a short adventure game about keeping a gopher network alive after some sort of nuclear event has destroyed civilisation.
