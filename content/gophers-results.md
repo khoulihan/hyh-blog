@@ -1,6 +1,6 @@
 Title: Ludum Dare 46 Results
 Date: 2020-05-13 22:34
-Modified: 2020-05-13 22:34
+Modified: 2020-05-13 23:58
 Category: Game Development
 Tags: ludum-dare, gopher, sci-fi, music, pixelart, godot
 Slug: gophers-results
@@ -31,11 +31,11 @@ I always feel that the real competition in the Ludum Dare is against myself - ju
 
 Nice upward trends! Note that I was only responsible for the art for "Claustrophobia" and "Rattendorf", so I can only take partial credit for the overall and mood ratings of those.
 
-The real learning experience this time around was on the audio. I've only done the audio for six of the nine Ludum Dares I've entered, so I left them out of the graphs above.
+The real learning experience this time around was on the audio. I've only done the audio for six of the nine Ludum Dares I've entered, so I left it out of the graphs above.
 
 ![Ratings Graph]({static}/images/gophers-results/ratings_audio.png)
 
-Looks like I really cranked it up a notch after coasting for a long while. Nice.
+Looks like I really cranked it up a notch this time after coasting for a long while. Nice.
 
 ## Moar Gophers
 
