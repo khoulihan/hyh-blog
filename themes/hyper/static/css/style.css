@@ -161,6 +161,23 @@ blockquote p {
   font-size: 1.5rem;
 }
 
+table {
+  width: 100%;
+}
+
+th, td {
+  padding: 0.2em 0.4em;
+}
+
+table {
+  border: 1px solid #333;
+  border-radius: 4px;
+}
+
+table thead {
+  background-color: #810d6c;
+  color: white;
+}
 
 /* Main navigation menu */
 
