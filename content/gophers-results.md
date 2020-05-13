@@ -6,7 +6,7 @@ Tags: ludum-dare, gopher, sci-fi, music, pixelart, godot
 Slug: gophers-results
 Authors: Kevin Houlihan
 Summary: Results for Ludum Dare 46 are out, and I did pretty well!
-Status: draft
+Status: published
 
 The Ludum Dare 46 results were published yesterday, and [my game](https://hyperlinkyourheart.itch.io/gophers) did quite well, placing 109th overall and 14th in the "Mood" category, as well as 120th and 121st in graphics and audio respectively. In the largest ever Ludum Dare, those are pretty decent placings I think, despite not breaking the top 100.
 
