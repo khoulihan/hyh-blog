@@ -22,7 +22,7 @@ PLUGIN_PATHS = ['../pelican-plugins', '../pelican-embed-svg', '../pelican-gopher
 PLUGINS = [
     #'css-html-js-minify',
     'pelican_embed_svg',
-    'pelican_gopher',
+    #'pelican_gopher',
 ]
 
 #PES_FONT_AWESOME_PATH = 'themes/hyper/static/font-awesome'
