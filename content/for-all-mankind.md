@@ -1,6 +1,6 @@
 Title: For All Mankind
 Date: 2020-04-14 16:48
-Modified: 2020-04-14 16:48
+Modified: 2020-05-17 19:09
 Category: TV
 Tags: sci-fi, not-a-tankie-but
 Slug: for-all-mankind
@@ -9,6 +9,8 @@ Summary: America wins, even when it loses.
 Status: published
 
 [![Red Moon]({static}/images/for-all-mankind/soviet-flag.jpg)](https://pixabay.com/vectors/basic-desolate-flag-old-russia-1299705/)
+
+<i class="fas fa-exclamation-triangle spoiler-icon"></i><span class="spoiler-text">This post contains spoilers for the TV show "For All Mankind"</span>
 
 "For All Mankind" is a strange show. It reimagines the space race of the late 1960s in such a way that the USA is the underdog, with the USSR beating them to the moon by a month. While NASA's failures are compounded by the crash-landing of the Apollo 11 lander, the Soviets rack up another victory when they land the first woman on the moon. Eventually the Americans get their act together and land a woman on the moon as well, and from that point on the two superpowers are neck and neck in space.
 

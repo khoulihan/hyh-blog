@@ -77,3 +77,14 @@ HEADER_COLOR = '#777'
 TYPOGRIFY = True
 
 DISPLAY_PAGES_IN_MENU = True
+
+MARKDOWN = {
+    'extension_configs': {
+        'markdown.extensions.codehilite': {'css_class': 'highlight'},
+        'markdown.extensions.extra': {},
+        'markdown.extensions.meta': {},
+        'markdown.extensions.admonition': {},
+        'markdown.extensions.sane_lists': {},
+    },
+    'output_format': 'html5',
+}

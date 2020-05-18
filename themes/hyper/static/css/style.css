@@ -342,7 +342,7 @@ nav.pagination svg {
 
 /* SVG icon in main content */
 
-.body-icon {
+.body-icon, .spoiler-icon {
   width: 1.2rem;
   height: 1.2rem;
 }
@@ -362,6 +362,56 @@ nav.pagination svg {
   width: 1.5rem;
   height: 1.5rem;
   margin: 3.0rem auto 1.0rem auto;
+}
+
+/* Admonitions */
+
+.admonition {
+  /* Maybe not the best base border colour */
+  border: 1px solid #e0007d;
+  border-radius: 0.25rem;
+}
+
+.admonition > :not(.admonition-title):first-of-type, .admonition > .admonition-title + * {
+    margin-top: 1rem;
+}
+.admonition > * {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.admonition > .admonition-title {
+    margin: 0;
+    padding: 0.75rem 1rem;
+    background: rgba(0, 0, 0, 0.03);
+        background-color: rgba(0, 0, 0, 0.03);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+        border-bottom-color: rgba(0, 0, 0, 0.125);
+    border-radius: calc(0.25rem - 1px) calc(0.25rem - 1px) 0 0;
+    font-size: 1rem;
+}
+
+.admonition.warning > .admonition-title,
+.admonition.spoiler > .admonition-title {
+    background-color: #e0007d;
+    color: white;
+}
+
+.admonition.warning, .admonition.warning > .admonition-title,
+.admonition.spoiler, .admonition.spoiler > .admonition-title {
+    border-color: #e0007d;
+}
+
+/* Spoiler warning icon alternative */
+
+.spoiler-icon, .spoiler-text {
+  color: #e0007d;
+}
+
+.spoiler-text {
+  margin-left: 0.75rem;
+  position: relative;
+  top: -0.15rem;
 }
 
 /* Responsivity */
