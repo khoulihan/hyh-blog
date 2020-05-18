@@ -1,6 +1,6 @@
 Title: Devs - Spirituality as a Service
 Date: 2020-05-18 17:56
-Modified: 2020-05-18 17:56
+Modified: 2020-05-18 22:05
 Category: TV
 Tags: sci-fi, religion
 Slug: devs
@@ -28,6 +28,6 @@ So this concept strains credibility, and works only on a allegorical level - the
 
 It also makes the climax of the show absurdly predictable. As soon as we hear that the simulation breaks down at a certain point, and it has something to do with Lily, we know that Lily is going to do something that contradicts the predictions of the simulation. None of the supposedly smart characters in the show demonstrate any awareness of this obvious fact, and it's frustrating. It is only redeemed because seeing the climax coming reflects the characters' foreknowledge of the future, in a way.
 
-![Lily]({static}/images/devs/lily_reflection.jpg "Lily doing a reflection")
+![Lily]({static}/images/devs/lily_reflection.jpg "Lily doing some reflecting")
 
 Overall, it's interesting enough and well enough written that these problems are easy to look past. Some of the imagery is fantastic, such as the would-be god-developers working in a giant fractal computer floating in a vacuum, completely isolated from the world they're trying to understand. It's also a tonal masterpiece, full of haunting establishing shots, temple-like sets, and an unsettling soundtrack. Worth watching for that reason alone, to be honest.
