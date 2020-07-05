@@ -18,9 +18,9 @@ TIMEZONE = 'Europe/Paris'
 DEFAULT_LANG = 'en'
 
 # Plugins
-PLUGIN_PATHS = ['../pelican-plugins', '../pelican-embed-svg', '../pelican-gopher']
+PLUGIN_PATHS = ['../pelican-plugins', '../pelican-embed-svg', '../pelican-gopher', './plugins']
 PLUGINS = [
-    #'css-html-js-minify',
+    'css-html-js-minify',
     'pelican_embed_svg',
     #'pelican_gopher',
 ]
