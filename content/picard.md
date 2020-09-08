@@ -10,6 +10,8 @@ Status: published
 
 ![Where did it all go wrong?]({static}/images/picard/picard-at-the-bar.jpg "Where did it all go wrong?")
 
+<i class="fas fa-exclamation-triangle spoiler-icon"></i><span class="spoiler-text">This post contains spoilers for the TV show "Picard"</span>
+
 Star Trek: The Next Generation, and its follow-ups, Deep Space 9 and Voyager, are some of my favourite TV shows. They are set in a future post-scarcity utopia where poverty, disease and war (amongst humans and *most* of the alien species they encounter, at least) have been largely eliminated.
 
 Although they sometimes deal with deep topics, like the humanity or personhood of artificial intelligences, the economic reality of their universe and how it came about goes largely unexamined. There is no money, we are told (except sometimes, when there is). There is property, apparently, but whether it works the same way as property does today is not discussed. Abundant energy and the technology to conjure most of the essentials of life from thin air mean that nobody goes hungry, but whether everybody can have the opportunity to own a vinyard in France without inheriting one is a question that goes unasked.
