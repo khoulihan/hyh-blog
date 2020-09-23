@@ -79,6 +79,10 @@ article {
   margin-bottom: 10.0rem;
 }
 
+article p {
+  text-align: justify;
+}
+
 section.post-content {
   margin-top: 2.5rem;
 }
