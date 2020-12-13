@@ -1,5 +1,6 @@
 Title: Cybercentrism
 Date: 2020-12-12 19:26
+Modified: 2020-12-13 18:10
 Category: Movies
 Tags: fiction, politics
 Slug: cybercentrism
@@ -19,7 +20,7 @@ But on the other hand, the centrality of pop culture to the plot, and why it is 
 
 ## Wow!! Cool Future!!
 
-This movie has the trappings of cyberpunk, but little of the critique. Victory in this story is not the smashing of a corporate monopoly or frustrating of its goals, but the passing of the reins of power from a virtuous benevolent founder to a handful of virtuous disciples, through a faux-meritocratic process where merit means liking the right books and games and movies.
+This movie has the trappings of cyberpunk, but little of the critique. Victory in this story is not the smashing of a corporate monopoly or frustrating of its goals, but the passing of the reins of power from a virtuous benevolent founder to a handful of virtuous disciples, through an absurd faux-meritocratic process where merit means liking the right books and games and movies.
 
 The antagonist, Sorrento, is the CEO of a company that runs debtor's prisons, yet somehow the movie gives the impression that his greater sin is being a poseur who's only pretending to "get" the stuff that Halliday liked. The denouement even reveals that Halliday could have used his monopoly power to end the practice of indentured servitude at any time, but apparently chose not to, or just didn't think to, and this is not framed as a critique of monopoly capitalism, but is just a throwaway line to demonstrate how benevolent the protagonist is in his new role.
 
