@@ -4,7 +4,7 @@ Category: Game Development
 Tags: godot, gdscript
 Slug: coroutine-callbacks
 Authors: Kevin Houlihan
-Summary: Using coroutines to call back to the emittor of a signal.
+Summary: Using coroutines to call back to the emitter of a signal.
 
 I'm working on a cutscene/dialogue graph editor plugin for the [Godot game engine][godot] (I mentioned using it for the Ludum Dare in a [previous post]({filename}/gophers-post-mortem.md)). When I came to deciding how to actually process the graphs it creates in order to display the dialogue and perform actions in the game, I discovered an interesting use for coroutines that I haven't seen described elsewhere. I'm not all that used to working with coroutines so maybe what I've done is completely normal and everybody does it all the time, or indeed it might be ill-advised for some reason. Either way, I will describe it here and you can ignore me if I'm being an idiot!
 
