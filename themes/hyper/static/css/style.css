@@ -158,6 +158,14 @@ code {
   padding: 1px 2px;
 }
 
+/* I think I am missing a dependency which has changed the way code blocks
+are structured. Previously they did not use code tags, the formatting of which
+this set of directives is overriding */
+pre code {
+  border: none;
+  background-color: transparent;
+}
+
 blockquote {
   padding: 1px 8px;
   border: none;

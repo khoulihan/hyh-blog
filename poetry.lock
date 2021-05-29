@@ -148,6 +148,7 @@ blinker = ">=1.4"
 docutils = ">=0.16"
 feedgenerator = ">=1.9"
 jinja2 = ">=2.7"
+markdown = {version = ">=3.1", optional = true, markers = "extra == \"markdown\""}
 pygments = ">=2.6"
 python-dateutil = ">=2.8"
 pytz = ">=2020.1"
@@ -287,7 +288,7 @@ testing = ["pytest (>=4.6)", "pytest-checkdocs (>=1.2.3)", "pytest-flake8", "pyt
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.7"
-content-hash = "91513c51b200ff276a67a042c7439c02f6eee285d036e437f0798ca726f1eb34"
+content-hash = "3031b7933547dd265fb9b25e3dc5df7b5ed98297a4c83a5a997a43361f5274c8"
 
 [metadata.files]
 beautifulsoup4 = [
