@@ -133,7 +133,10 @@ div.post-meta {
 }
 
 .post-content img {
+  width: 100%;
   max-width: 100%;
+  image-rendering: crisp-edges;
+  image-rendering: pixelated;
 }
 
 code, pre, blockquote {

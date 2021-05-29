@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "hyh-blog"
+version = "0.1.0"
+description = "Personal blog"
+authors = ["Kevin Houlihan <kevin@crimsoncookie.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+pelican = "^4.2.0"
+typogrify = "^2.0.7"
+pelican-embed-svg = "^0.0.3"
+css-html-js-minify = "^2.5.5"
+beautifulsoup4 = "^4.8.2"
+lxml = "^4.2.1"
+Pillow = "^8.2.0"
+Markdown = "^3.3.4"
+Pygments = "^2.9.0"
+pelican-optimise-images = {git = "https://github.com/khoulihan/pelican-optimise-images.git", rev = "main"}
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

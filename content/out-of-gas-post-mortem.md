@@ -1,5 +1,6 @@
 Title: Out of Gas
 Date: 2021-05-04 10:41
+Modified: 2021-05-29 22:52
 Category: Game Development
 Tags: ludum-dare, sci-fi, music, pixelart, godot
 Slug: out-of-gas-post-mortem
@@ -7,7 +8,7 @@ Authors: Kevin Houlihan
 Summary: A post-mortem of my Ludum Dare 48 entry, Out of Gas - a space-road-trip themed narrative/clicker game about a couple of outlaws fleeing their cryptocurrency debts.
 Status: published
 
-[![Out of Gas]({static}/images/out-of-gas-post-mortem/OOG_itch_banner.png)](https://hyperlinkyourheart.itch.io/out-of-gas)
+[![Out of Gas]({static}/images/out-of-gas-post-mortem/OOG_itch_banner.jpg)](https://hyperlinkyourheart.itch.io/out-of-gas)
 
 [Out of Gas][itch] is my entry for the recent [Ludum Dare 48][ldjam] game jam. It was intended to be a blatant [FTL][ftl] rip-off, but in having much simplified clicker-like combat mechanics and an unusual cars-in-space aesthetic, I think it is sufficiently its own thing (I hope anyway!)
 
@@ -21,7 +22,7 @@ As you can probably tell by now I ended up combining these two ideas! I didn't w
 
 The combined concept suggested that a new, sci-fi twist on the debt problem was required, and that's where the idea of a constantly growing cryptocurrency debt came in. I've been thinking about cryptocurrencies a lot lately since they're going through another hype cycle. One commonly touted feature of them (or some, like Bitcoin, at least), is that they're deflationary, so any debt denominated in them would constantly grow in value instead of decreasing in value like debts denominated in inflationary fiat currencies. This seemed like the perfect notion for the bizarre world of my game. It doesn't really have any impact on the gameplay, but I think it's a nice bit of narrative flavour, and it fits the theme perfectly.
 
-![Late payment]({static}/images/out-of-gas-post-mortem/OOG Late Payment.png)
+![Late payment]({static}/images/out-of-gas-post-mortem/OOG-Late-Payment.jpg)
 
 The final piece of the conceptual puzzle was the characters. I couldn't very well have two anonymous nobodies riding along with the player on a trip like this! I turned to two characters I had vague notions of making a game about years ago, Haze & Lee, a gun-toting, post-apocalyptic outlaw couple. Unfortunately I don't think their personalities really come across in the game due to time constraints, but at least they have names!
 
@@ -33,25 +34,25 @@ As usual, I did all the art in [Pyxel Edit][pyxel]. I started off very rough wit
 
 The thing about rough mockups is that by the time I came back to the art a bunch of stuff in the game was already tied to the resolution and shape of the outlines. I wasn't even sure I had done the perspective correctly, but I was stuck with it anyway, and I guess it was close enough because nobody has complained!
 
-![First ships]({static}/images/out-of-gas-post-mortem/art.gif)
+![First ships]({static}/images/out-of-gas-post-mortem/art_opt.jpg)
 
 I had planned to do some character portraits as well for the narrative side of the game, and express encounters as dialogues between characters, but unfortunately there wasn't time for that.
 
 The map screen also didn't get much love, with the initial placeholder art surviving into the final game.
 
-![Map screen]({static}/images/out-of-gas-post-mortem/OOG Map Trail.png)
+![Map screen]({static}/images/out-of-gas-post-mortem/OOG_Map_Trail.jpg)
 
 ## Code ##
 
 As for my last Ludum Dare entry, [Gophers]({filename}/gophers-post-mortem.md), a [cutscene graph editor plugin][graph] for [Godot][godot] that I had previously developed was essential to getting this game done within the time constraints of the jam.
 
-![Those darn teenagers!]({static}/images/out-of-gas-post-mortem/teenagers_dialogue.png)
+![Those darn teenagers!]({static}/images/out-of-gas-post-mortem/teenagers_dialogue.jpg)
 
 I had done a lot of work on this plugin in recent months, applying lessons learned from using it for Gophers to improve the workflow, functionality, and stability. This paid huge dividends, and I found almost no issues while churning out encounter cutscenes. The cutscene graphs created by this plugin power every encounter in the game up to and after combat.
 
 My main task on the first day was to get the map screen working - it wouldn't be much of a game if you couldn't travel between systems. I implemented it as a graph defined by custom `MapSystem` and `MapConnection` control nodes.
 
-![Map graph]({static}/images/out-of-gas-post-mortem/map_ui.png)
+![Map graph]({static}/images/out-of-gas-post-mortem/map_ui.jpg)
 
 The new fun thing about this for me was declaring the `MapConnection` class to be a "tool" script, allowing the connections between systems to be drawn in the editor. This kind of custom tooling is important for the efficient design of systems in larger games, so it was fun to give it a try. Here, it mostly served to prevent me from getting confused about which `MapSystem` nodes I had already connected to each other and which I hadn't.
 
@@ -79,7 +80,7 @@ func _draw():
 
 Implementing the combat was a lot tougher. The battle scene is almost entirely UI nodes, which was perhaps a mistake, and for some reason I struggled most of day two to even get player input to register properly. I don't really remember now what the obstacle was to this - maybe I was just tired.
 
-![Battle UI]({static}/images/out-of-gas-post-mortem/encounter_ui.png)
+![Battle UI]({static}/images/out-of-gas-post-mortem/encounter_ui.jpg)
 
 ## Sound and Music ##
 
@@ -101,7 +102,7 @@ A big regret that I have is that I wasn't able to include the character portrait
 
 I like this game a lot, and I feel it is one that could be polished up and rounded out into a complete experience with relative ease, so I am determined to do a post-jam release with some of the missing features described above, and some of the problems with the jam release resolved (such as the RNG sometimes producing the same encounter multiple times in a row). I have already begun work on this, and I hope to have it completed in the next few months. I'll do another post about my progress on it so far, but for now here's a little sneak peek:
 
-[![Haze speaks!]({static}/images/out-of-gas-post-mortem/HazeSpeaks.png)](https://hyperlinkyourheart.itch.io/out-of-gas)
+[![Haze speaks!]({static}/images/out-of-gas-post-mortem/HazeSpeaks.jpg)](https://hyperlinkyourheart.itch.io/out-of-gas)
 
 [itch]: https://hyperlinkyourheart.itch.io/out-of-gas "Out of Gas"
 [ldjam]: https://ldjam.com/events/ludum-dare/48 "Ludum Dare 48"

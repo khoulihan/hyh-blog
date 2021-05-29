@@ -18,10 +18,11 @@ TIMEZONE = 'Europe/Paris'
 DEFAULT_LANG = 'en'
 
 # Plugins
-PLUGIN_PATHS = ['../pelican-plugins', '../pelican-embed-svg', '../pelican-gopher', './plugins']
+PLUGIN_PATHS = ['../pelican-plugins', '../pelican-embed-svg', '../pelican-optimise-images', '../pelican-gopher', './plugins']
 PLUGINS = [
     'css-html-js-minify',
     'pelican_embed_svg',
+    'pelican_optimise_images',
     #'pelican_gopher',
 ]
 
@@ -63,7 +64,7 @@ MENUITEMS = (('Home', ''),
             ('Categories', 'categories.html'),
             ('Tags', 'tags.html'),)
 
-DEFAULT_PAGINATION = 3
+DEFAULT_PAGINATION = 10
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
