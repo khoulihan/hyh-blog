@@ -64,7 +64,7 @@ The plugin is actually not even working fully yet - for some reason it is missin
 
 I also haven't done anything about the pixel art images, which if served at their original resolution could be a significant saving.
 
-So in short, huge progress, but still much scope for improvement!
+So in short, [huge progress][website-carbon], but still much scope for improvement!
 
 I am almost sorry I'm not going to end up using these dithered PNGs though...
 
@@ -76,3 +76,4 @@ I am almost sorry I'm not going to end up using these dithered PNGs though...
 [hitherdither]: https://github.com/hbldh/hitherdither "hitherdither library"
 [pillow]: https://python-pillow.org/ "Pillow"
 [lowtech]: https://solar.lowtechmagazine.com/about.html "Low-tech magazine solar powered web site"
+[website-carbon]: https://www.websitecarbon.com/website/blog-hyperlinkyourheart-com/ "76th percentile for energy efficiency"
