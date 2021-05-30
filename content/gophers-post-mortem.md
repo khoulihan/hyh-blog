@@ -8,7 +8,7 @@ Authors: Kevin Houlihan
 Summary: A post-mortem of my Ludum Dare 46 entry, Gophers - a short adventure game about keeping a gopher network alive after some sort of nuclear event has destroyed civilisation.
 Status: published
 
-[![Overlooking the city]({static}/images/gophers-post-mortem/Gophers_tower.png)](https://hyperlinkyourheart.itch.io/gophers)
+[![Overlooking the city]({static}/images/gophers-post-mortem/Gophers_tower.jpg)](https://hyperlinkyourheart.itch.io/gophers)
 
 [Gophers][itch] is my entry for [Ludum Dare 46][ldjam], the most recent of the bi-annual Ludum Dare game jams. It is a short adventure game about maintaining a [gopher][gopher] network in a post-apocalyptic world.
 
@@ -20,7 +20,7 @@ I've been really interested lately in gopher and other low-overhead technologies
 
 I did all the art in [Pyxel Edit][pyxel] as usual. My goal was to keep everything abstract and as high-contrast and readable as possible while still allowing for a nice parallax cityscape. I started with a mock-up of the exterior scene, and then essentially flipped the background and foreground colours from that for the bunker scene. I only used 7 colours in the end.
 
-![Bunker Scene]({static}/images/gophers-post-mortem/BunkerScreenie.png)
+![Bunker Scene]({static}/images/gophers-post-mortem/BunkerScreenie.jpg)
 
 I put together a timelapse of the art so you can see the whole process:
 
@@ -30,7 +30,7 @@ I put together a timelapse of the art so you can see the whole process:
 
 The only reason why I considered this a viable idea was because I had previously developed a [cutscene graph editor plugin][graph] for [Godot][godot]. It was untested in any game but I thought it would give me enough of a leg up that I would have time for the art and writing.
 
-[![Graph editor]({static}/images/gophers-post-mortem/graph.png)][graph]
+[![Graph editor]({static}/images/gophers-post-mortem/graph.jpg)][graph]
 
 So in effect, the "gopher network" in the game is actually a dialogue tree!
 

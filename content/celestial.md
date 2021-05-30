@@ -1,6 +1,6 @@
 Title: Celestial
 Date: 2020-06-24 22:55
-Modified: 2020-06-24 22:55
+Modified: 2021-05-30 17:25
 Category: Art
 Tags: pixelart, pixeldailies, space, sci-fi, animation
 Slug: celestial

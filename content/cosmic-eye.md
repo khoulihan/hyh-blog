@@ -1,6 +1,6 @@
 Title: Cosmic Eye
 Date: 2020-06-06 21:44
-Modified: 2020-06-06 21:44
+Modified: 2021-05-30 17:25
 Category: Art
 Tags: pixelart, pixeldailies, surreal, space
 Slug: cosmic-eye
@@ -8,7 +8,7 @@ Authors: Kevin Houlihan
 Summary: A piece I did for pixel dailies on the theme "Eye".
 Status: published
 
-![Cosmic Eye]({static}/images/cosmic-eye/SpaceEye_216_01_x5.png "Cosmic Eye")
+![Cosmic Eye]({static}/images/cosmic-eye/SpaceEye_216_01_x1.png "Cosmic Eye")
 
 I got back into the pixel dailies a couple of days this week. I've never used them as an actual daily practice, but when I see a theme I like I jump in. This day, the theme was "Eye", and I _really_ like eyes.
 
