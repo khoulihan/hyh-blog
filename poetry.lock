@@ -206,6 +206,7 @@ beautifulsoup4 = "4.8.2"
 click = "^8.0.1"
 hitherdither = "branch master"
 lxml = "4.2.1"
+numpy = "^1.20.3"
 pelican = "^4.2.0"
 Pillow = "^8.2.0"
 
@@ -213,7 +214,7 @@ Pillow = "^8.2.0"
 type = "git"
 url = "https://github.com/khoulihan/pelican-optimise-images.git"
 reference = "main"
-resolved_reference = "e3ce032985e76ed93064b5c422ad3881a687ba97"
+resolved_reference = "b0291dd06539b2dd0831c638d31a9e10e3b743f6"
 
 [[package]]
 name = "pillow"
