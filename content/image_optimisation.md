@@ -1,5 +1,6 @@
 Title: Image Optimisation
 Date: 2021-05-30 00:27
+Modified: 2021-06-01 13:20
 Category: Meta
 Tags: indieweb, blogging
 Slug: image-optimisation
@@ -69,6 +70,12 @@ So in short, [huge progress][website-carbon], but still much scope for improveme
 I am almost sorry I'm not going to end up using these dithered PNGs though...
 
 ![Tracer and Chun-Li]({static}/images/image-optimisation/tracer_alpha_halved_pal32_dithbayer_order2_thresh8-1-8.png "Wow looks like videogams"){: .poi-no-optimise}
+
+### Update 01/06/2021
+
+I fixed the problem with the plugin and all images are now optimised except the few in this post that are flagged to be skipped. I also swapped out all the pixel art images and gifs for 1x resolution versions. These are just being scaled up by CSS, with reasonable results.
+
+The index page is now 539kB, the whole site is just over 1MB, and it is in the 80th percentile for energy usage according to websitecarbon.com (whatever that's worth). I think the link above showed 75th or 76th percentile or thereabouts at the time of posting, but it will show 80th now.
 
 [pelican]: https://blog.getpelican.com/ "Pelican static site generator"
 [plugin]: https://github.com/khoulihan/pelican-optimise-images "pelican-optimise-images plugin"
