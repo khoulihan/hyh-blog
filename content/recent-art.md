@@ -4,7 +4,7 @@ Category: Art
 Tags: pixelart
 Slug: recent-art
 Authors: Kevin Houlihan
-Summary: Belated art updates.
+Summary: Belated art updates from the last 7 months.
 Status: published
 
 Once again I have become neglectful of updating this blog with my artwork, so let's do a roundup of the last uh... *7 months?!?!* and maybe I'll try to get it back on track from here on. Though I do have a nice [portfolio site][portfolio] now that I have been keeping up to date, so if you really like my art you could be following that as well. More on that below.
