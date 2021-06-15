@@ -18,7 +18,7 @@ Like comrade Slime, I think that it's an interesting thought experiment, but a l
 
 This is Nick's description of *what* futuristic super-computing civilisations would do with their computational power, but he doesn't really get into *why* they might do this. Into this absence people pour all sorts of ideas. A common one is that we are equivalent to NPCs in a video-game. A related one is that we exist so that the simulators can pop in and out of our minds and ride us around for some reason - historical educational purposes perhaps, or the thrill of slumming it in the stupid-ages.
 
-These are interesting concepts for science-fiction, but I don't find them compelling as claims about the reality of our world. Video-games are indeed able to present more visually convincing realities than in the past, but they don't do that by simulating entire physical universes in minute detail. They might run physics simulations for a variety of things in the vicinity of the player - beyond the bare minimum necessary to convince, they are hollow. simplified facades, and anything not relevant to the context of the current gameplay is non-existent. What would it add to a player's experience to have NPCs living lives outside of that context and having inner lives?
+These are interesting concepts for science-fiction, but I don't find them compelling as claims about the reality of our world. Video-games are indeed able to present more visually convincing realities than in the past, but they don't do that by simulating entire physical universes in minute detail. They might run physics simulations for a variety of things in the vicinity of the player - beyond the bare minimum necessary to convince, they are hollow, simplified facades, and anything not relevant to the context of the current gameplay is non-existent. What would it add to a player's experience to have NPCs living lives outside of that context and having inner lives?
 
 Nick Bostrum actually gets into some of the mechanisms that could be used to reduce the computational requirements of a simulation:
 
@@ -70,6 +70,16 @@ Fair enough, I guess that would do it, if keeping the simulations going is reall
 Oh well.
 
 ## Ethics of the Present and Distant Future
+
+One possibility for why a posthuman civilization might choose not to run ancestor simulations is that doing so would raise some thorny ethical concerns. Take it away Nick:
+
+> One can speculate that advanced civilizations all develop along a trajectory that leads to the recognition of an ethical prohibition against running ancestor-simulations because of the suffering that is inflicted on the inhabitants of the simulation
+
+Yes I think that might be likely... wait, what are you...
+
+> However, from our present point of view, it is not clear that creating a human race is immoral
+
+*Ooof*. It's not just *creating a human race* that we're talking about here, it's *creating a human race and trapping them in a false reality for our own edification or amusement*.
 
 ## Postsingular Posthumans
 
