@@ -50,9 +50,24 @@ Nick likens this scenario to running code in a virtual machine:
 
 > It may be possible for simulated civilizations to become posthuman. They may then run their own ancestor-simulations on powerful computers they build in their simulated universe. Such computers would be “virtual machines”, a familiar concept in computer science. (Java script web-applets, for instance, run on a virtual machine – a simulated computer – inside your desktop.)
 
-His example is terrible, but the basic assertion is correct, a computer can simulate another computer in various ways, with varying levels of overhead. In the best case, code running in the virtual machine runs directly on the host hardware with no translation necessary.
+His example is terrible, but the basic assertion is correct, a computer can simulate another computer in various ways, with varying levels of overhead. In the best case, code running in the virtual machine runs directly on the host hardware with no translation necessary. Obviously, this doesn't add any processing power - software running in the host has to share its resources with the software running in the virtual machine.
 
 Now, let's think through this scenario a little bit.
+
+Say you are a posthuman civilisation that has converted an entire planet into a giant computer. All the computation you decide to do is running on this computer. For some reason, you decide to run an ancestor simulation of your quite recent past, such that the simulated universe is on the cusp of achieving their own planet-computer. All of the computation of that universe would actually be running on *your* computer, alongside all the existing computation of your civilisation, and all the other work required for the simulation, all the fake stars and physics and advanced posthuman minds. Then you let them run their own simulation of their own recent past - now you have to support the load of three civilisations with planet-sized computers on only one actual physical planet-sized computer. And then four, and then five, and on and on.
+
+A little while ago we were talking about cutting corners to save resources and focus on running our ancestors minds, and now here we are supporting an infinite regress of posthuman computers for no obvious purpose. There wouldn't be any shortcuts here - if a computer 10 levels down wants to compute a hash or calculate millions of primes you would actually have to do the work or *they would know*.
+
+There are two possible workarounds/objections to this that I can think of:
+
+1. Simulations could be run slower than the host reality to allow room for it. Would a time-dialated simulation be useful? I guess that depends on what you're running it for!
+2. Posthuman level simulations would only be allowed to develop once the host reality had converted enough matter to *pure computer* that supporting them was not a burden. In other words, the simulations would always have to lag behind by some significant amount.
+
+Fair enough, I guess that would do it, if keeping the simulations going is really important, you might always dedicate a proportional amount of your ever increasing computational resources to them. I do come back to the why though - would a simulation of a posthuman-level civilisation be a fun game? Would there be anything to learn from it that you didn't document when you were going through that phase?
+
+> One consideration that counts against the multi-level hypothesis is that the computational cost for the basement-level simulators would be very great. Simulating even a single posthuman civilization might be prohibitively expensive. If so, then we should expect our simulation to be terminated when we are about to become posthuman
+
+Oh well.
 
 ## Ethics of the Present and Distant Future
 
