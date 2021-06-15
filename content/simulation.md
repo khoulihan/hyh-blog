@@ -50,7 +50,7 @@ Nick likens this scenario to running code in a virtual machine:
 
 > It may be possible for simulated civilizations to become posthuman. They may then run their own ancestor-simulations on powerful computers they build in their simulated universe. Such computers would be “virtual machines”, a familiar concept in computer science. (Java script web-applets, for instance, run on a virtual machine – a simulated computer – inside your desktop.)
 
-His example is poor - it's actually more like the type of virtual machine that would run an entire operating system on virtual hardware - but the basic assertion is correct, a computer can simulate another computer.
+His example is terrible, but the basic assertion is correct, a computer can simulate another computer in various ways, with varying levels of overhead. In the best case, code running in the virtual machine runs directly on the host hardware with no translation necessary.
 
 Now, let's think through this scenario a little bit.
 
