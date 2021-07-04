@@ -166,13 +166,15 @@ pre code {
 }
 
 blockquote {
-  padding: 1px 8px;
+  padding: 4px 8px;
   border: none;
+  margin: 0px;
+  text-align: left;
 }
 
 blockquote p {
   margin: 0.5rem;
-  font-size: 1.5rem;
+  /*font-size: 1.5rem;*/
 }
 
 table {
@@ -359,6 +361,12 @@ nav.pagination svg {
 .body-icon, .spoiler-icon {
   width: 1.2rem;
   height: 1.2rem;
+}
+
+.quote-icon {
+  width: 1.0rem;
+  height: 1.0rem;
+  margin-left: 0.5rem;
 }
 
 
