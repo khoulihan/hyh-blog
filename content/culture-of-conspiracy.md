@@ -14,7 +14,7 @@ Anyway, here's my book report (or at least some of my thoughts, and probably som
 
 ## Emergency Management
 
-One of the things I was most eager to learn about from this book was FEMA camp conspiracy theories. I find these theories amongst the most frustrating (and amusing) because of how they look past the very real historical precedents of concentration camps, and the present day realities of mass incarceration and political repression in the United States, and focus instead on a long running conspiracy that is always just on the cusp of rounding up those troublesome "patriots".
+One of the things I was most eager to learn about from this book was FEMA camp conspiracy theories. I find these theories amongst the most frustrating (and amusing) because of how they look past the very real historical precedents of concentration camps, and the present day realities of mass incarceration and political repression in the United States and elsewhere, and focus instead on a long running conspiracy that is always just on the cusp of rounding up those troublesome "patriots".
 
 Of course, the longer this conspiracy has been in the milieu the more absurd it becomes. Barkun identifies the origins of this theory as a pamphlet by a man named William Pabst, written sometime prior to 1979. Pabst warns: "your country and way of life [will be] replaced by a system in which you will be a slave in a concentration camp".
 
