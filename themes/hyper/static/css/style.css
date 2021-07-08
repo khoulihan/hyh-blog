@@ -523,6 +523,11 @@ nav.pagination svg {
     color: #bbb;
   }
 
+  code, blockquote {
+    border: 1px solid #888;
+    background-color: #333;
+  }
+
   .post-meta img {
     filter: invert(14%) sepia(74%) saturate(7315%) hue-rotate(318deg) brightness(87%) contrast(105%);
   }
