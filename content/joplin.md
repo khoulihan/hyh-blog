@@ -9,7 +9,7 @@ Status: published
 
 I've been using Evernote for quite a few years now for keeping work and personal notes, despite never really being happy with it. Aside from the fact of entrusting my data to a private company, most of my issues with it were minor nuisances, and momentum kept me using it because I didn't see a good alternative that seemed impressive enough to be worth the hassle of migration. I considered writing my own alternative many times, but of course there were even greater barriers to that!
 
-A few weeks ago I decided to finally take the plunge and try out Joplin, a FOSS note-taking desktop and mobile app.
+A few weeks ago I decided to finally take the plunge and try out [Joplin][joplin], a FOSS note-taking desktop and mobile app.
 
 ## Joplin
 
@@ -63,6 +63,6 @@ Syncthing has actually been a revelation for me. As well as my notes I've been u
 
 It feels great to be able to cut Google out of the loop as well as Evernote, and so far it has been working away well in the background without me having to think much about it after the initial setup.
 
-[Joplin]: https://joplinapp.org/ "Joplin's website"
+[joplin]: https://joplinapp.org/ "Joplin's website"
 [export]: https://help.evernote.com/hc/en-us/articles/209005557-Export-notes-and-notebooks-as-ENEX-or-HTML "How to export notes from Evernote"
 [syncthing]: https://syncthing.net/ "Syncthing website"
