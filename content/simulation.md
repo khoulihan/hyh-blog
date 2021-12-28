@@ -8,7 +8,7 @@ Authors: Kevin Houlihan
 Summary: Thoughts on the simulation argument.
 Status: draft
 
-I just done watched [Thought Slime's][tschannel] [video about the simulation argument][tsvideo], and it's a topic about which I've had some thoughts myself, so I thought maybe it was time to write some of them down.
+I just done watched [Thought Slime's][tschannel] [video about the simulation argument][tsvideo] (actually many months ago by the time I'm actually publising this), and it's a topic about which I've had some thoughts myself, so I thought maybe it was time to write some of them down.
 
 Like comrade Slime, I think that it's an interesting thought experiment, but a lot of what is said about it is poorly thought through at best. It's particularly frustrating when [Nick Bostrom's argument][nbarg] is held up as "proof" of the "certainty" that we are living in a simulation, alongside arguments and assertions that completely contradict it. The argument itself doesn't claim to be proof of any such thing - it presents three possibilities based on premises about which we have almost no information.
 
@@ -79,7 +79,13 @@ Yes I think that might be likely... wait, what are you...
 
 > However, from our present point of view, it is not clear that creating a human race is immoral
 
-*Ooof*. It's not just *creating a human race* that we're talking about here, it's *creating a human race and trapping them in a false reality for our own edification or amusement*.
+*Ooof*. It's not just *creating a human race* that we're talking about here, it's *creating a human race and trapping them in a false reality for our own edification or amusement*, and in some hypothetical scenarios, *instantly terminating billions of them when they reach a certain level of development*. I think most people today would baulk at the prospect of treating even a single person like that.
+
+Even worse are the moral implications for us, today, of taking some of Nick's proposals seriously. In relation to the idea that many minds might be simulated only partially some amount of the time in order to save resources (discussed above), he suggests that it would also be a way for the simulators to avoid inflicting suffering:
+
+> There is also the possibility of simulators abridging certain parts of the mental lives of simulated beings and giving them false memories of the sort of experiences that they would typically have had during the omitted interval. If so, one can consider the following (farfetched) solution to the problem of evil: that there is no suffering in the world and all memories of suffering are illusions. Of course, this hypothesis can be seriously entertained only at those times when you are not currently suffering.
+
+You weren't traumatised, you see, you just have a false memory of trauma. And no need to worry about the consequences if you feel compelled to abuse, murder or rape:
 
 ## Postsingular Posthumans
 
