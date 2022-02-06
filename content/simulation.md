@@ -1,6 +1,6 @@
 Title: Sim-Universe
 Date: 2021-06-11 21:10
-Modified: 2021-06-11 21:10
+Modified: 2022-02-06 19:10
 Category: Philosophy
 Tags: sci-fi, religion
 Slug: simulation
@@ -38,9 +38,9 @@ I submit to you that if you are experiencing a private and mundane moment right 
 
 A more reasonable suggestion, to my mind, is that we would run such simulations in order to study our own civilisation at different stages of development, or to see how civilisations might develop under different circumstances. Would these simulations even require fully conscious simulated participants in order to be useful? Would they need to simulate the full lives of everybody who has ever lived? Or would they drastically reduce the number of minds needing to be simulated by cutting out all the boring parts? Would there really even be anything to be learned from such simulations?
 
-This lack of clarity about why a posthuman civilisation would run ancestor simulations is at the heart of a lot of my issues with the argument. Without that understanding, we can't really say whether such a civilisation would run them or not, or how many, or what their parameters would be. It's just sort of assumed that they probably will because it would be a cool thing to be able to do, and some people say they would do it right now if it were possible. But that's an easy thing to say when you don't have to worry about the ethical concerns or the resources involved.
+This lack of clarity about why a posthuman civilisation would run ancestor simulations is at the heart of a lot of my issues with the argument. Without that understanding, we can't really say whether such a civilisation would run them or not, or how many, or what their parameters would be. It's just sort of assumed that they probably will because it would be a cool thing to be able to do, and some people say they would do it right now if it were possible. But that's an easy thing to say when it's impossible, and you don't have to worry about the ethical concerns or the resources involved.
 
-Another type of simulation we might run are of universes with different physical laws, but as the quotes above about simplifying the simulations suggest, these would have a different set of priorities, and wouldn't really qualify as "ancestor simulations". But, more about physics simulations in a minute...
+Another type of simulation we might run are of universes with different physical laws, but as the quotes above about simplifying the simulations suggest, these would have a different set of priorities, and wouldn't really qualify as "ancestor simulations".
 
 ## Simulations Within Simulations
 
@@ -63,13 +63,13 @@ There are two possible workarounds/objections to this that I can think of:
 1. Simulations could be run slower than the host reality to allow room for it. Would a time-dialated simulation be useful? I guess that depends on what you're running it for!
 2. Posthuman level simulations would only be allowed to develop once the host reality had converted enough matter to *pure computer* that supporting them was not a burden. In other words, the simulations would always have to lag behind by some significant amount.
 
-Fair enough, I guess that would do it, if keeping the simulations going is really important, you might always dedicate a proportional amount of your ever increasing computational resources to them. I do come back to the why though - would a simulation of a posthuman-level civilisation be a fun game? Would there be anything to learn from it that you didn't document when you were going through that phase?
+Fair enough, I guess that would do it, if keeping the simulations going is really important, you might always dedicate a proportional amount of your ever increasing computational resources to them. I do come back to the why though - would a simulation of a posthuman-level civilisation be a fun game for posthumans? Would there be anything to learn from it that you didn't document when you were going through that phase?
 
 > One consideration that counts against the multi-level hypothesis is that the computational cost for the basement-level simulators would be very great. Simulating even a single posthuman civilization might be prohibitively expensive. If so, then we should expect our simulation to be terminated when we are about to become posthuman
 
-Oh well.
+Oh, well. Better to return to monke then, lest techno-god smite us for our arrogance.
 
-## Ethics of the Present and Distant Future
+## If God Did Not Exist...
 
 One possibility for why a posthuman civilization might choose not to run ancestor simulations is that doing so would raise some thorny ethical concerns. Take it away Nick:
 
@@ -79,16 +79,27 @@ Yes I think that might be likely... wait, what are you...
 
 > However, from our present point of view, it is not clear that creating a human race is immoral
 
-*Ooof*. It's not just *creating a human race* that we're talking about here, it's *creating a human race and trapping them in a false reality for our own edification or amusement*, and in some hypothetical scenarios, *instantly terminating billions of them when they reach a certain level of development*. I think most people today would baulk at the prospect of treating even a single person like that.
+*Ooof*. It's not just *creating a human race* that we're talking about here, it's *creating a human race and trapping them in a false reality for our own edification or amusement*, and in some hypothetical scenarios, *instantly terminating billions of them when they reach a certain level of development*. I think most people today would baulk at the prospect of treating even a single person like that, much less generation after generation of unwitting playthings.
 
 Even worse are the moral implications for us, today, of taking some of Nick's proposals seriously. In relation to the idea that many minds might be simulated only partially some amount of the time in order to save resources (discussed above), he suggests that it would also be a way for the simulators to avoid inflicting suffering:
 
 > There is also the possibility of simulators abridging certain parts of the mental lives of simulated beings and giving them false memories of the sort of experiences that they would typically have had during the omitted interval. If so, one can consider the following (farfetched) solution to the problem of evil: that there is no suffering in the world and all memories of suffering are illusions. Of course, this hypothesis can be seriously entertained only at those times when you are not currently suffering.
 
-You weren't traumatised, you see, you just have a false memory of trauma. And no need to worry about the consequences if you feel compelled to abuse, murder or rape:
+You weren't traumatised, you see, you just have a false memory of trauma. And no need to worry about the consequences if you feel compelled to abuse, murder or rape: those are just zombie shadow-people you're hurting, and they don't really feel pain! Nothing is real and nothing matters!
+
+But wait! Maybe our simulators will take it upon themselves to reward or punish us for our behaviour in their simulation (without informing us that they will do so, or on what basis), and dedicate ludicrous amounts of resources to simulating all the minds they have ever simulated, indefinitely, in an afterlife:
+
+> Further rumination on these themes could climax in a naturalistic theogony that would study the structure of this hierarchy, and the constraints imposed on its inhabitants by the possibility that their actions on their own level may affect the treatment they receive from dwellers of deeper levels. For example, if nobody can be sure that they are at the basement-level, then everybody would have to consider the possibility that their actions will be rewarded or punished, based perhaps on moral criteria, by their simulators. An afterlife would be a real possibility.
+
+It genuinely disturbs me that there are people who are only good because they believe there is some force outside the universe that will reward them for it, or punish them for misbehaviour - and, even worse, people who would take on the role of cosmic arbiter themselves if given the chance.
 
 ## Postsingular Posthumans
 
+Inevitably, discussions about the simulation argument are little more than speculation based on almost no information. The kind of civilisation that would be capable of running such simulations would be one that has passed through a technological singularity - a point at which technological progress becomes so rapid that its path is impossible to predict. In fact the simulation argument requires that a civilisation has achieved the ability to simulate a human-equivalent mind - an Artificial General Intelligence - widely considered to be the invention that will instigate the singularity, since such an intelligence would probably be able to improve itself at an exponential rate.
+
+We have zero examples of a post-singularity, posthuman civilisation, and only one example of a human-level civilisation, on which to base our speculations. What will super-intelligent posthumans value? Almost by definition such a civilisation would be beyond our comprehension.
+
+The simulation argument seems mostly, to me, to be an attempt to imagine God in a way that is appealing to 21st century techies. I'm inclined to think that such a god, like all others, is not just unknowable, but non-existent.
 
 [tschannel]: https://www.youtube.com/channel/UCrr7y8rEXb7_RiVniwvzk9w "Thought Slime"
 [tsvideo]: https://www.youtube.com/watch?v=erkM0abWBfQ "Elon Musk is wrong about simulation theory, how uncharacteristic of him."
