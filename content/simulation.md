@@ -99,7 +99,7 @@ Inevitably, discussions about the simulation argument are little more than specu
 
 We have zero examples of a post-singularity, posthuman civilisation, and only one example of a human-level civilisation, on which to base our speculations. What will super-intelligent posthumans value? Almost by definition such a civilisation would be beyond our comprehension.
 
-The simulation argument seems mostly, to me, to be an attempt to imagine God in a way that is appealing to 21st century techies. I'm inclined to think that such a god, like all others, is not just unknowable, but non-existent. 
+The simulation argument seems mostly, to me, to be an attempt to imagine God in a way that is appealing to 21st century techies. I'm inclined to think that such a god, like all others, is not just unknowable, but non-existent.
 
 [tschannel]: https://www.youtube.com/channel/UCrr7y8rEXb7_RiVniwvzk9w "Thought Slime"
 [tsvideo]: https://www.youtube.com/watch?v=erkM0abWBfQ "Elon Musk is wrong about simulation theory, how uncharacteristic of him."
