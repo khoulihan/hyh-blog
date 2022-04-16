@@ -1,12 +1,12 @@
 Title: Sim-Universe
-Date: 2021-06-11 21:10
-Modified: 2022-02-06 19:10
+Date: 2022-04-16 15:43
+Modified: 2022-04-16 15:43
 Category: Philosophy
 Tags: sci-fi, religion
 Slug: simulation
 Authors: Kevin Houlihan
 Summary: Thoughts on the simulation argument.
-Status: draft
+Status: published
 
 I just done watched [Thought Slime's][tschannel] [video about the simulation argument][tsvideo] (actually many months ago by the time I'm actually publising this), and it's a topic about which I've had some thoughts myself, so I thought maybe it was time to write some of them down.
 
@@ -18,7 +18,7 @@ Like comrade Slime, I think that it's an interesting thought experiment, but a l
 
 This is Nick's description of *what* futuristic super-computing civilisations would do with their computational power, but he doesn't really get into *why* they might do this. Into this absence people pour all sorts of ideas. A common one is that we are equivalent to NPCs in a video-game. A related one is that we exist so that the simulators can pop in and out of our minds and ride us around for some reason - historical educational purposes perhaps, or the thrill of slumming it in the stupid-ages.
 
-These are interesting concepts for science-fiction, but I don't find them compelling as claims about the reality of our world. Video-games are indeed able to present more visually convincing realities than in the past, but they don't do that by simulating entire physical universes in minute detail. They might run physics simulations for a variety of things in the vicinity of the player - beyond the bare minimum necessary to convince, they are hollow, simplified facades, and anything not relevant to the context of the current gameplay is non-existent. What would it add to a player's experience to have NPCs living lives outside of that context and having inner lives?
+These are interesting concepts for science-fiction, but I don't find them compelling as claims about the reality of our world. Video-games are indeed able to present more visually convincing realities than in the past, but they don't do that by simulating entire physical universes in minute detail. They might run physics simulations for a variety of things in the vicinity of the player - beyond the bare minimum necessary to convince, they are hollow, simplified facades, and anything not relevant to the context of the current gameplay is non-existent. Similarly, what would it add to a player's experience to have NPCs living lives outside of that context and having inner lives?
 
 Nick Bostrum actually gets into some of the mechanisms that could be used to reduce the computational requirements of a simulation:
 
@@ -40,7 +40,7 @@ A more reasonable suggestion, to my mind, is that we would run such simulations 
 
 This lack of clarity about why a posthuman civilisation would run ancestor simulations is at the heart of a lot of my issues with the argument. Without that understanding, we can't really say whether such a civilisation would run them or not, or how many, or what their parameters would be. It's just sort of assumed that they probably will because it would be a cool thing to be able to do, and some people say they would do it right now if it were possible. But that's an easy thing to say when it's impossible, and you don't have to worry about the ethical concerns or the resources involved.
 
-Another type of simulation we might run are of universes with different physical laws, but as the quotes above about simplifying the simulations suggest, these would have a different set of priorities, and wouldn't really qualify as "ancestor simulations".
+Another type of simulation we might run are of universes with different physical laws, but as the quotes above about simplifying the simulations suggest, these would have a different set of priorities, and wouldn't really qualify as "ancestor simulations". Whether they would even result in conscious entities would probably depend on the parameters of the simulation - they wouldn't be the goal. If we take seriously the suggestion that we live in this kind of simulation, we can't even assume that the simulators are anything like us, not even in their remote past, or that the simulating universe resembles ours in any way - so how can we possibly speculate about their motives, or what is computationally possible in their universe?
 
 ## Simulations Within Simulations
 
@@ -60,7 +60,7 @@ A little while ago we were talking about cutting corners to save resources and f
 
 There are two possible workarounds/objections to this that I can think of:
 
-1. Simulations could be run slower than the host reality to allow room for it. Would a time-dialated simulation be useful? I guess that depends on what you're running it for!
+1. Simulations could be run slower than the host reality to allow room for it. Would a time-dilated simulation be useful? I guess that depends on what you're running it for!
 2. Posthuman level simulations would only be allowed to develop once the host reality had converted enough matter to *pure computer* that supporting them was not a burden. In other words, the simulations would always have to lag behind by some significant amount.
 
 Fair enough, I guess that would do it, if keeping the simulations going is really important, you might always dedicate a proportional amount of your ever increasing computational resources to them. I do come back to the why though - would a simulation of a posthuman-level civilisation be a fun game for posthumans? Would there be anything to learn from it that you didn't document when you were going through that phase?
