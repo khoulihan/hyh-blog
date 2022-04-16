@@ -16,7 +16,7 @@ Pillow = "^8.3.2"
 Markdown = "^3.3.4"
 Pygments = "^2.9.0"
 pelican-optimise-images = {git = "https://github.com/khoulihan/pelican-optimise-images.git", rev = "main"}
-numpy = "^1.20.3"
+numpy = "^1.21.0"
 
 [tool.poetry.dev-dependencies]
 
