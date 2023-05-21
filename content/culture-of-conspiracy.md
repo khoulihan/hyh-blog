@@ -1,5 +1,6 @@
 Title: A Culture of Conspiracy
 Date: 2023-05-21 17:56
+Modified: 2023-05-21 23:08
 Category: Books
 Tags: non-fiction, politics
 Slug: culture-of-conspiracy
@@ -41,7 +42,7 @@ First of all, all conspiracy theories necessarily involve claims that one or mor
 
 With fact rendered fictional, it becomes very easy to point to fiction to fill gaps in their evidence. Sometimes this takes the form of taking fictional sources as literal accounts, and Barkun describes some of these instances. Other times fictional stories are said to contain encoded messages or to be for the purpose of softening up the masses to accept some coming revelation or societal change - nothing can ever be somebody's neat idea for a sci-fi concept, or allegory, or their opinion of where society is or is going, unplanned.
 
-In some accounts, I believe that describing their literal plans in fiction is believed to have an occult purpose for the conspirators, much like is claimed about symbols on currency or on buildings (e.g. Denver airport). Advertising their plans in a way that will only be understood by an enlightened few is somehow a part of bringing them to fruition. This is how Alex Jones is interpreting H.G Wells' "Time Machine" when he talks about Eloi and Morlocks, saying "it's all right there folks".
+In some accounts, I believe that describing their literal plans in fiction is believed to have an occult purpose for the conspirators, much like is claimed about symbols on currency or on buildings (e.g. Denver airport). Advertising their plans in a way that will only be understood by an enlightened few is somehow a part of bringing them to fruition. This is how Alex Jones is interpreting H.G Wells' "Time Machine" when he talks about Eloi and Morlocks, saying "it's all right there folks" - and similarly for the other pop cultural works, of course.
 
 ## Emergency Management
 
@@ -49,7 +50,7 @@ One of the things I was most eager to learn about from this book was FEMA camp c
 
 Of course, the longer this conspiracy has been in the milieu the more absurd it becomes. Barkun identifies the origins of this theory as a pamphlet by a man named William Pabst, written sometime prior to 1979. Pabst warns: "your country and way of life [will be] replaced by a system in which you will be a slave in a concentration camp".
 
-As such, more recent incarnations of this theory imply that the US government (acting on behalf of some puppet-masters, perhaps) has been building and maintaining a network of secret camps for *over 40 years* without ever putting their nefarious plans into motion!
+As such, more recent incarnations of this theory imply that the US government (acting on behalf of some hidden puppet-masters, perhaps) has been building and maintaining a network of secret camps for *over 40 years* without ever putting their nefarious plans into motion!
 
 Historical instances of the use of internment and concentration camps by governments are of course very real. However, they have never required such extensive periods of preparation. When the British government decided to round up Irish Nationalists in Northern Ireland, they built temporary structures in the weeks prior to doing so, and more permanent structures over the next few years after that. The United States forced 120,000 Japanese Americans into camps during WWII, first in hastily converted racetracks and fairgrounds, and then in more permanent facilities built over a few months in 1942. Even the horrifying machinery of the Nazis did not require decades to construct, instead comprising a mix of repurposed buildings of many types, and camps newly constructed during the course of the war - a system that imprisoned and exterminated millions.
 
@@ -62,6 +63,8 @@ In a testament to the veracity of the saying that "a lie can travel half-way aro
 Nonetheless, the analysis is still useful to understanding the process of the creation and dissemination of conspiracist ideas. Indeed there is no amount of time and lack of confirmation that will kill many conspiracies - the reason I was so focused on FEMA camp conspiracies in this post was because somebody told me just a few years ago that Hillary Clinton would have put everybody in camps, and similar rhetoric arose even more recently when the language around COVID-19 mitigation measures was claimed to be intended to "make us feel like we're in prison" - a *FEMA camp of the mind* I guess.
 
 The only writing of Barkun's that I've read concerning more recent developments in the conspiracy sphere is an [article in "Foreign Policy"][2] about QAnon which examines the efforts of its adherents to cope with its failed prophecies. As far as I'm aware QAnon is still going strong despite its predictive failures.
+
+QAnon has been described by some as a "big tent" conspiracy theory because of its ability to adapt and incorporate new claims. However, it's hardly unique in that regard - NWO conspiracy theories and many others have been interpreting events through their particular lenses and adapting and incorporating new claims for decades. QAnon might be unique in terms of its longevity *despite having made specific, dated predictions that failed to come to pass*, but to me it seems more like a systemic conspiracy that conspiracists have been rolling into their own long-existing superconspiracies. It only seems like QAnon is the "big tent" because it broke so spectacularly into the mainstream. As it breaks down under the weight of its failures it seems like it is adapting to include other theories, but it is actually the other theories that are absorbing it into themselves and trying to salvage the parts of it that are useful.
 
 ### More Conspiracism
 
