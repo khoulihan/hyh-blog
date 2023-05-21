@@ -42,7 +42,7 @@ First of all, all conspiracy theories necessarily involve claims that one or mor
 
 With fact rendered fictional, it becomes very easy to point to fiction to fill gaps in their evidence. Sometimes this takes the form of taking fictional sources as literal accounts, and Barkun describes some of these instances. Other times fictional stories are said to contain encoded messages or to be for the purpose of softening up the masses to accept some coming revelation or societal change - nothing can ever be somebody's neat idea for a sci-fi concept, or allegory, or their opinion of where society is or is going, unplanned.
 
-In some accounts, I believe that describing their literal plans in fiction is believed to have an occult purpose for the conspirators, much like is claimed about symbols on currency or on buildings (e.g. Denver airport). Advertising their plans in a way that will only be understood by an enlightened few is somehow a part of bringing them to fruition. This is how Alex Jones is interpreting H.G Wells' "Time Machine" when he talks about Eloi and Morlocks, saying "it's all right there folks" - and similarly for the other pop cultural works, of course.
+In some accounts, I believe that describing their literal plans in fiction is believed to have an occult purpose for the conspirators, much like is claimed about symbols on currency or on buildings (e.g. Denver airport). Advertising their plans in a way that will only be understood by an enlightened few is somehow a part of bringing them to fruition. This is how Alex Jones is interpreting H.G Wells' "Time Machine" when he talks about Eloi and Morlocks, saying "it's all right there folks" - and similarly for the other pop cultural works he references, of course.
 
 ## Emergency Management
 
