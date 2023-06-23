@@ -101,7 +101,7 @@ func _on_dialogue_display_continue_clicked():
 
 That's all the changes required for this project! Of course, the coroutine state object also had a property indicating if it was resumable or not, `is_valid`. It would not be difficult at all to reproduce this by simply adding such a property (perhaps behind a setter that would make it read-only except internally), and setting it to false once `proceed()` is called.
 
-It could also be expanded to allow more complex communication between the coroutine and the consumer, or to make a long running coroutine cancellable. The controller can only `await` one type of signal to continue, but you could have it pass different instructions when resuming e.g. you could give it `stop()` and `continue()` methods. Additional properties on the signal object could be used to pass back other data without having to pass it in the signal at all.
+It could also be expanded to allow more complex communication between the coroutine and the consumer, or to make a long running coroutine cancellable. The controller can only `await` one type of signal to continue, but you could have it pass different instructions when resuming e.g. you could give it `stop()` and `proceed()` methods. Additional properties on the signal object could be used to pass back other data without having to pass it in the signal at all.
 
 ```python
 enum ProceedSignalType {
