@@ -131,6 +131,13 @@ I'm now working on improving some parts of the tool that were lacking in flexibi
 
 Future plans include new ways of defining and interacting with sub-graphs, more flexible ways of manipulating variables, built-in variables and meta-data, and better ways of defining characters.
 
+## Update: Pure Signals
+
+It occurred to me after posting this that there is an even easier way to achieve this - as long as you don't need to keep any state in the signalling object. Because Godot 4 allows you to pass signals and callables, you could just pass the signal to proceed with the signal that initiates the action. When the consumer is ready to proceed they can then just call `emit` on it.
+
+I might still prefer the other way of doing it because `_current_process.proceed()` reads a little better than `_current_process_proceed_signal.emit()`.
+
+
 [godot]: https://godotengine.org/ "The game engine you waited for."
 [previous]: {filename}/coroutine-callbacks.md  "Coroutine Callbacks post"
 [github]: https://github.com/khoulihan/godot4-cutscene-graph-editor "Cutscene Graph Editor project on GitHub"
