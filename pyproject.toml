@@ -14,7 +14,7 @@ beautifulsoup4 = "^4.8.2"
 lxml = "^4.2.1"
 Pillow = "^8.3.2"
 Markdown = "^3.3.4"
-Pygments = "^2.9.0"
+Pygments = "^2.15.0"
 pelican-optimise-images = {git = "https://github.com/khoulihan/pelican-optimise-images.git", rev = "main"}
 numpy = "^1.24"
 
