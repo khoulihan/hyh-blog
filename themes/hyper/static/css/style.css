@@ -195,6 +195,17 @@ table thead {
   color: white;
 }
 
+figure {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+figcaption {
+  font-size: 0.9em;
+  color: #444;
+  text-align: center;
+}
+
 /* Main navigation menu */
 
 nav.collapsible-menu ul {
@@ -526,6 +537,10 @@ nav.pagination svg {
   code, blockquote {
     border: 1px solid #888;
     background-color: #333;
+  }
+
+  figcaption {
+    color: #bbb;
   }
 
   .post-meta img {
