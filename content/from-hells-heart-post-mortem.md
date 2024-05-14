@@ -1,11 +1,11 @@
 Title: From Hell's Heart
-Date: 2024-05-12 14:21
+Date: 2024-05-14 22:46
 Category: Game Development
 Tags: godot, godot4, gdscript, ludum-dare, music, pixelart
 Slug: from-hells-heart
 Authors: Kevin Houlihan
 Summary: A post-mortem of my Ludum Dare 55 entry, From Hell's Heart, a twin-stick shooter.
-Status: draft
+Status: published
 
 ![Demon character from my game bound in a circle of protection]({static}/images/from-hells-heart/my_boy_scaled.png "What have they done to my boy??")
 
