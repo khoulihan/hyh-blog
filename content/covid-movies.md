@@ -1,7 +1,7 @@
 Title: COVID Movies
 Date: 2024-06-30 13:30
 Category: Movies
-Tags: fiction
+Tags: fiction, coronavirus, star-trek
 Slug: covid-movies
 Authors: Kevin Houlihan
 Summary: Movies I watched when I was sick.
