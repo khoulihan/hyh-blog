@@ -90,6 +90,14 @@
     <ol>
         <li class="crumb"><a href="{{ SITEURL }}"><i class="fas fa-heart breadcrumb-icon"></i></a></li>
         <li class="divider"></li>
+        <li class="crumb"><a href="{{ SITEURL }}/categories.html">Categories</a></li>
+        <li class="divider"></li>
+        <li class="crumb">
+            <a href="{{ SITEURL }}/category/{{article.category.slug}}.html">
+                {{article.category.name}}
+            </a>
+        </li>
+        <li class="divider"></li>
         <li class="crumb">{{ article.slug }}</li>
     </ol>
 </nav>
