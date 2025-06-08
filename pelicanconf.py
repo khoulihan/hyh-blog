@@ -46,16 +46,13 @@ LINKS = (('Pelican', 'http://getpelican.com/'),
          ('Jinja2', 'http://jinja.pocoo.org/'),)
 
 # Social widget
-SOCIAL = (('Twitter', 'https://twitter.com/http_your_heart'),
-          ('Mastodon', 'https://mastodon.art/@hyperlinkyourheart'),)
+SOCIAL = (('Mastodon', 'https://mastodon.ie/@hyperlinkyourheart'),)
 
 # Custom social list that includes icons
-SOCIAL_ICONS = (('Twitter', 'fab fa-twitter', 'https://twitter.com/http_your_heart'),
-                ('Mastodon', 'fab fa-mastodon', 'https://mastodon.art/@hyperlinkyourheart'),
+SOCIAL_ICONS = (('Mastodon', 'fab fa-mastodon', 'https://mastodon.ie/@hyperlinkyourheart'),
                 ('Instagram', 'fab fa-instagram', 'https://www.instagram.com/hyperlinkyourheart/'),
                 ('Facebook', 'fab fa-facebook', 'https://www.facebook.com/hyperlinkyourheart/'),
                 ('YouTube', 'fab fa-youtube', 'https://www.youtube.com/channel/UCc_O9Hp5UfQ-IHswi1H54Zg'),
-                ('Twitch', 'fab fa-twitch', 'https://www.twitch.tv/hyperlinkyourheart'),
                 ('Itch', 'fab fa-itch-io', 'https://hyperlinkyourheart.itch.io/'),
                 ('GitHub', 'fab fa-github', 'https://github.com/khoulihan'),
                 ('Atom Feed', 'fas fa-rss', '/feeds/all.atom.xml'),)
