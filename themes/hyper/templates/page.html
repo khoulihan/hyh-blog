@@ -2,6 +2,19 @@
 
 {% block title %}{{ SITENAME }} - {{ page.title }}{% endblock %}
 
+{% block opengraph %}
+  {{ super() }}
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="{{ SITENAME }} - {{page.title}}" />
+  <meta property="og:description" content="{{ SITESUBTITLE|default('View the blog.') }}" />
+  <meta property="og:url" content="{{ SITEURL }}/{{page.url}}" />
+  {% if DEFAULT_OPENGRAPH_IMAGE %}
+    <meta property="og:image" content="{{ SITEURL }}/{{ DEFAULT_OPENGRAPH_IMAGE }}">
+  {% else %}
+    <meta property="og:image" content="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/images/logo.png">
+  {% endif %}
+{% endblock opengraph%}
+
 {% block breadcrumbs %}
 <nav class="crumbs">
     <ol>
