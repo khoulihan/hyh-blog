@@ -1,7 +1,8 @@
 Title: Energy Usage Update
 Date: 2021-05-27 13:20
+Modified: 2025-06-12 15:23
 Category: Meta
-Tags: indieweb, blogging, pixel-art
+Tags: indieweb, blogging, pixelart
 Slug: energy-usage-update
 Authors: Kevin Houlihan
 Summary: An update on the energy efficiency of this blog.
