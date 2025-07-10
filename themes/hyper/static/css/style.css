@@ -509,6 +509,11 @@ nav.pagination svg {
   .container, #blog-header > .inner, nav.crumbs {
     max-width: 40rem;
   }
+
+  .container {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
 }
 
 
