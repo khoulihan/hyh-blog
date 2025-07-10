@@ -494,6 +494,10 @@ nav.pagination svg {
   .container, #blog-header > .inner, nav.crumbs {
     max-width: 40rem;
   }
+  
+  .container {
+    padding: 0.3rem 1.0rem;
+  }
 }
 
 @media screen and (max-width: 374px) {
@@ -511,8 +515,7 @@ nav.pagination svg {
   }
 
   .container {
-    margin-left: 15px;
-    margin-right: 15px;
+    padding: 0.3rem 1.0rem;
   }
 }
 
