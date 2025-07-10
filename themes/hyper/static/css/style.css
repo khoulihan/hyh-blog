@@ -48,11 +48,11 @@ ul > li {
 /* Original width was 760px, which was a compromise for large screens */
 .container, #blog-header > .inner, nav.crumbs {
   margin: 0 auto;
-  max-width: 40rem;
+  max-width: 48rem;
 }
 
 .container {
-  padding: 0.3rem 0.5rem;
+  padding: 0.3rem 1.0rem;
 }
 
 nav.crumbs {
@@ -464,14 +464,14 @@ nav.pagination svg {
 }
 
 
-@media screen and (max-width: 600px) and (min-width: 450px) {
+@media screen and (max-width: 768px) and (min-width: 450px) {
+  html {
+    font-size: 95%;
+  }
+
   #blog-logo-image {
     width: 336px;
     height: 49px;
-  }
-
-  .container, #blog-header > .inner, nav.crumbs {
-    max-width: 40rem;
   }
 }
 
@@ -484,14 +484,6 @@ nav.pagination svg {
     width: 260px;
     height: 38px;
   }
-
-  .container, #blog-header > .inner, nav.crumbs {
-    max-width: 40rem;
-  }
-  
-  .container {
-    padding: 0.3rem 1.0rem;
-  }
 }
 
 @media screen and (max-width: 374px) {
@@ -502,14 +494,6 @@ nav.pagination svg {
   #blog-logo-image {
     width: 240px;
     height: 35px;
-  }
-
-  .container, #blog-header > .inner, nav.crumbs {
-    max-width: 40rem;
-  }
-
-  .container {
-    padding: 0.3rem 1.0rem;
   }
 }
 
