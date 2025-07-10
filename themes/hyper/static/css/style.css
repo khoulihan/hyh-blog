@@ -79,10 +79,6 @@ article {
   margin-bottom: 5.0rem;
 }
 
-article p {
-  text-align: justify;
-}
-
 section.post-content {
   margin-top: 2.5rem;
 }
@@ -171,12 +167,10 @@ blockquote {
   padding: 4px 8px;
   border: none;
   margin: 0px;
-  text-align: left;
 }
 
 blockquote p {
   margin: 0.5rem;
-  /*font-size: 1.5rem;*/
 }
 
 table {
