@@ -1,6 +1,6 @@
 Title: About / Contact
 Date: 2019-12-24 11:06
-Modified: 2025-06-08 15:35
+Modified: 2025-07-12 17:24
 Slug: about
 Authors: Kevin Houlihan
 Summary: About me, and this blog
@@ -27,7 +27,7 @@ I have [another site](https://hyperlinkyourheart.com) about my art and gamedev e
 
 The ideal place to view my pixel art is my [portfolio site](https://portfolio.hyperlinkyourheart.com), but most of it is also on [DeviantArt](https://www.deviantart.com/randomhuman/gallery), along with other media, and some of it is also on this blog.
 
-I do [time-lapse videos](https://www.youtube.com/channel/UCc_O9Hp5UfQ-IHswi1H54Zg) of my process for the pixel art that I do.
+I do [time-lapse videos](https://www.youtube.com/channel/UCc_O9Hp5UfQ-IHswi1H54Zg) of my process for the pixel art that I do. Also on [PeerTube](https://makertube.net/c/hyperlinkyourheartart/videos).
 
 My art is available for printing from a number of *Print on Demand* sites:
 
@@ -45,8 +45,5 @@ You can [email me](mailto:kevin@hyperlinkyourheart.com?subject=Hyperlink Your He
 
 If you want to keep track of what I'm up to I have a [mailing list](http://eepurl.com/duG-VD). I don't post to it very often, but I will be launching my own storefront in the near future, and subscribers will get some exclusive offers.
 
-I'm also on quite a few social media sites, so feel free to hit me up on any of them:
+I'm also on [Mastodon](https://mastodon.ie/@hyperlinkyourheart), so feel free to hit me up there. I have profiles and pages on several other social media sites, but I'm not really active on them any more.
 
- * [Mastodon](https://mastodon.ie/@hyperlinkyourheart)
- * [Facebook](https://www.facebook.com/hyperlinkyourheart/)
- * [Instagram](https://www.instagram.com/hyperlinkyourheart/)
