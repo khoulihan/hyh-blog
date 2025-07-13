@@ -31,7 +31,7 @@ a:hover {
   text-decoration: none !important;
 }
 
-nav a, header a {
+nav a, header a, .related-post-link a, .return a {
   text-decoration: none;
 }
 
@@ -87,6 +87,25 @@ section.post-excerpt > p {
   margin-top: 1.5rem;
 }
 
+section.related-post-excerpt {
+  margin-top: 0.8rem;
+  margin-bottom: 0.8rem;
+  max-width: 30rem;
+}
+
+section.related-post-excerpt > p {
+  margin-top: 0.8rem;
+  margin-bottom: 0.8rem;
+}
+
+div.related-post-link {
+  padding-left: 2.0rem;
+  margin-bottom: 3.0rem;
+}
+
+.return {
+  margin-bottom: 3.0rem;
+}
 
 /* Content formatting */
 
@@ -94,6 +113,10 @@ section.post-excerpt > p {
 h1.post-title, h1.sitemap-title {
   font-size: 2.0em;
   margin-bottom: 1.0rem;
+}
+
+h3.related-post-title {
+  margin-bottom: 0.8rem;
 }
 
 .header-subtext {
@@ -121,6 +144,12 @@ div.post-meta {
   color: #888;
   width: 1.0rem;
   height: 1.0rem;
+}
+
+.return svg {
+  width: 1.0rem;
+  height: 1.0rem;
+  margin-right: 1.0rem;
 }
 
 .meta-value {

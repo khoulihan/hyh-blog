@@ -1,0 +1,36 @@
+<div class="related-post-link">
+  <h3 class="related-post-title"><a href="{{ SITEURL }}/{{ relatedarticle.url }}" rel="bookmark" title="Permalink to {{ relatedarticle.title|striptags }}">{{ relatedarticle.title }}</a>
+  </h3>
+  <section class="related-post-excerpt">
+      <p>
+          {% if relatedarticle.has_summary %}
+              {{ relatedarticle.summary }}
+          {% elif relatedarticle.summary %}
+              {{ relatedarticle.summary|striptags|truncate(250) }}
+          {% endif %}
+      </p>
+  </section>
+  <div class="post-meta">
+      <div>
+          <i class="fas fa-calendar-day" />
+          <span class="meta-value"><time datetime="{{ relatedarticle.locale_date }}">{{ relatedarticle.locale_date }}</time></span>
+      </div>
+    {% if include_related_article_category %}
+      <div>
+          <i class="fas fa-sitemap" />
+          <span class="meta-value"><a href="{{ SITEURL }}/{{ relatedarticle.category.url }}" rel="bookmark" title="{{relatedarticle.category.name}} Category">{{ relatedarticle.category.name }}</a></span>
+      </div>
+    {% endif %}
+    {% if include_related_article_tags %}
+      <div>
+          <i class="fas fa-tags" />
+          <span class="meta-value">
+              {% for tag in relatedarticle.tags %}
+                  <a class="tag" href="{{ SITEURL }}/{{ tag.url }}" rel="bookmark" title="{{tag.name}} Tag">{{ tag.name }}</a>{% if not loop.last %}, {% endif %}
+              {% endfor %}
+          </span>
+      </div>
+    {% endif %}
+  </div>
+  <div class="clear"></div>
+</div>

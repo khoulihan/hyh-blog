@@ -31,6 +31,7 @@
     {% for name,link in SOCIAL if name.lower() in ['twitter'] %}
         <meta name="twitter:card" content="summary_large_image">
         <meta name="twitter:site" content="@{{ link|replace('http://', 'https://')|replace('https://twitter.com/', '') }}">
+        {# ' #}
         <meta name="twitter:title" content="{{ article.title }}">
         <meta name="twitter:url" content="{{ SITEURL }}/{{ article.url }}">
 
@@ -108,8 +109,65 @@
 
 <div id="index" class="container">
   <main class="content" role="main">
+    <a id="top" />
     {% set SHOW_FULL_ARTICLE = true %}
     {% include "partials/article.html" %}
   </main>
+  <section class="return">
+    <h3><a href="#top"><i class="fas fa-fast-backward" />Back to top</a></h3>
+    <h3><a href="{{ SITEURL }}"><i class="fas fa-heart" />Return to index</a></h3>
+  </section>
+  {% set skip_articles = namespace(prev="", next="") %}
+  {% for a in articles|reverse %}
+    {% if a.slug == article.slug %}
+      {% if loop.nextitem is defined %}
+        {% set skip_articles.next = loop.nextitem.slug %}
+        {% set relatedarticle = loop.nextitem %}
+        <section class="related">
+          <h2>Next Post</h2>
+          {% set include_related_article_category = true %}
+          {% set include_related_article_tags = true %}
+          {% include "partials/related_article.html" %}
+        </section>
+      {% endif %}
+      {% if loop.previtem is defined %}
+        {% set skip_articles.prev = loop.previtem.slug %}
+        {% set relatedarticle = loop.previtem %}
+        <section class="related">
+          <h2>Previous Post</h2>
+          {% set include_related_article_category = true %}
+          {% set include_related_article_tags = true %}
+          {% include "partials/related_article.html" %}
+        </section>
+      {% endif %}
+    {% endif %}
+  {% endfor %}
+  {% if SHOW_RELATED_ARTICLES %}
+    <section class="related">
+      {{ prev_article_slug }}
+      {{ next_article_slug }}
+      <h2>Related Posts</h2>
+      {% for c, arts in categories %}
+        {% if c == category %}
+          {% if arts|length <= 1 %}
+            <p>There are no related posts. Maybe check out another <a href="{{ SITEURL }}/categories.html">category</a>?</p>
+          {% else %}
+            {% set include_related_article_category = false %}
+            {% set include_related_article_tags = true %}
+            {# Slicing this list of articles did not work; it returned empty objects. #}
+            {% set count = namespace(value=RELATED_ARTICLE_COUNT) %}
+            {% for relatedarticle in arts %}
+                {% if count.value > 0  %}
+                {% if relatedarticle.slug != article.slug and relatedarticle.slug != skip_articles.prev and relatedarticle.slug != skip_articles.next %}
+                  {% set count.value = count.value - 1 %}
+                  {% include "partials/related_article.html" %}
+                {% endif %}
+              {% endif %}
+            {% endfor %}
+          {% endif %}
+        {% endif %}
+      {% endfor %}
+    </section>
+  {% endif %}
 </div>
 {% endblock content %}
