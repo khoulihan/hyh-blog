@@ -1,5 +1,6 @@
 Title: Value and Values
 Date: 2025-11-30 13:42
+Modified: 2025-11-30 14:39
 Category: Technology
 Tags: framework, capitalism, fascism
 Slug: values
@@ -12,7 +13,7 @@ I've been a Framework enjoyer for a couple of years now. Indeed, I'm writing thi
 
 ![My Framework 13 on a table with its lid slightly open, casting an orange glow on the palm rest. It has an orange bezel and a black DBrand skin.][myframework]
 
-Of course I was aware that there were "risks" involved. The main one that came to mind was that they might go out of business at some point and that would likely be the end of any significant repairability advantage, as despite the clever design, it is not commodity hardware as you would find in a desktop PC. Or of course, they might just abandon the model I have eventually, or abandon their current focus altogether. Any of these could happen if their business model and the niche they occupy turns out to not be sustainable, or profitable, or they fail to grow that niche market. In such an event, it would be the same as if I had bought any other laptop. They joke all the time about doing an IPO, something which might significantly effect their ability to stick to their priciples, and it comes across very "ha ha, only serious".
+Of course I was aware that there were "risks" involved. The main one that came to mind was that they might go out of business at some point and that would likely be the end of any significant repairability advantage, as despite the clever design, it is not commodity hardware as you would find in a desktop PC. Or of course, they might just abandon the model I have eventually, or abandon their current focus altogether. Any of these could happen if their business model and the niche they occupy turns out to not be sustainable, or profitable, or they fail to grow that niche market. In such an event, it would be the same as if I had bought any other laptop. They joke all the time about doing an IPO, something which might significantly effect their ability to stick to their principles, and it comes across very "ha ha, only serious".
 
 One risk that hadn't really occurred to me was that they would [associate their brand with fascism][forum] in a ridiculous PR own-goal.
 
