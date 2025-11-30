@@ -1,8 +1,8 @@
 Title: Value and Values
 Date: 2025-11-30 13:42
-Modified: 2025-11-30 14:39
+Modified: 2025-11-30 17:17
 Category: Technology
-Tags: framework, capitalism, fascism
+Tags: framework, capitalism, fascism, socialism
 Slug: values
 Authors: Kevin Houlihan
 Summary: Some reflections on what tech companies actually value, with particular reference to Framework's recent sponsorship choices, but really more generally than that.
