@@ -79,6 +79,10 @@ article {
   margin-bottom: 5.0rem;
 }
 
+article.post-preview {
+  margin-bottom: 3.0rem;
+}
+
 section.post-content {
   margin-top: 2.5rem;
 }
@@ -87,13 +91,16 @@ section.post-excerpt > p {
   margin-top: 1.5rem;
 }
 
-section.related-post-excerpt {
+section.related-post-excerpt, article.post-preview section.post-excerpt {
   margin-top: 0.8rem;
   margin-bottom: 0.8rem;
+}
+
+section.related-post-excerpt {
   max-width: 30rem;
 }
 
-section.related-post-excerpt > p {
+section.related-post-excerpt > p, article.post-preview section.post-excerpt > p {
   margin-top: 0.8rem;
   margin-bottom: 0.8rem;
 }
@@ -115,7 +122,7 @@ h1.post-title, h1.sitemap-title {
   margin-bottom: 1.0rem;
 }
 
-h3.related-post-title {
+h3.related-post-title, article.post-preview .post-title {
   margin-bottom: 0.8rem;
 }
 

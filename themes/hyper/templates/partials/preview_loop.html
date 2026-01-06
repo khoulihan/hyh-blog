@@ -1,0 +1,5 @@
+    {% for article in articles_page.object_list %}
+        {% include "partials/article_preview.html" %}
+    {% endfor %}
+
+    {% include "partials/pagination.html" %}

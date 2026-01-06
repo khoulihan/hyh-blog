@@ -1,0 +1,19 @@
+<article class="post-preview">
+    <div class="inner">
+        <header class="post-header">
+            <h2 class="post-title"><a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark" title="Permalink to {{ article.title|striptags }}">{{ article.title }}</a>
+            </h2>
+            <section class="post-excerpt">
+                <p>
+                    {% if article.has_summary %}
+                        {{ article.summary }}
+                    {% elif article.summary %}
+                        {{ article.summary|striptags|truncate(250) }}
+                    {% endif %}
+                </p>
+            </section>
+            {% include "partials/article_meta.html" %}
+            <div class="clear"></div>
+        </header>
+    </div>
+</article>

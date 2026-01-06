@@ -22,8 +22,7 @@
         <li class="divider"></li>
         <li class="crumb"><a href="{{ SITEURL }}/tags.html">Tags</a></li>
         <li class="divider"></li>
-        <li class="crumb tag">
-            {{tag.name}}
+        <li class="crumb tag">{{tag.name}}
             {% if TAG_FEED_ATOM %}
                 <span class="header-subtext">
                     <a href="{{ FEED_DOMAIN }}/{{ TAG_FEED_ATOM.format(slug=tag.slug) }}" type="application/atom+xml" rel="alternate" title="{{ SITENAME }} {{ tag.name }} Tag Atom Feed">
@@ -40,8 +39,7 @@
 
 <div id="index" class="container">
   <main class="content" role="main">
-    {% set SHOW_FULL_ARTICLE = false %}
-    {% include "partials/loop.html" %}
+    {% include "partials/preview_loop.html" %}
   </main>
 </div>
 {% endblock content %}
